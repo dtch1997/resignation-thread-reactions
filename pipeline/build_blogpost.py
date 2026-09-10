@@ -19,13 +19,13 @@ ROOT_ID = "2097476196791709843"
 DATA = Path(__file__).parent / "data" / ROOT_ID
 OUT = Path(__file__).parent / "blogpost.md"
 GROUPS = [
-    ("Argues", "argue", ["risk_substance", "risk_denial", "race_logic", "policy_power", "exit_critique"],
+    ("Engages with substance", "argue", ["risk_substance", "risk_denial", "race_logic", "policy_power", "exit_critique"],
      "Posts that engage the claim: that the labs are racing irresponsibly and the risk is real."),
-    ("Reacts", "react", ["existential_reaction", "cultural_framing"],
+    ("Expresses a reaction to the post", "react", ["existential_reaction", "cultural_framing"],
      "Posts that respond with feeling or with a frame from fiction, history, or religion, without arguing."),
-    ("Judges the author", "author", ["endorse_amplify", "author_attacks"],
+    ("Comments on the author", "author", ["endorse_amplify", "author_attacks"],
      "Posts about the person: praising and relaying, or attacking credibility and motive."),
-    ("Noise and meta", "noise", ["meta_and_noise"],
+    ("Other", "noise", ["meta_and_noise"],
      "Emoji, off-topic, trading takes, commentary on the virality, bots."),
 ]
 LANG = {"en": "English", "es": "Spanish", "th": "Thai", "fr": "French", "ja": "Japanese", "pt": "Portuguese",

@@ -9,10 +9,10 @@ ROOT_ID = "2097476196791709843"
 DATA = Path(__file__).parent / "data" / ROOT_ID
 FIG = Path(__file__).parent / "figures"
 GROUPS = [
-    ("Reacts", "#C2571A", ["existential_reaction", "cultural_framing"]),
-    ("Judges the author", "#3B8F5E", ["endorse_amplify", "author_attacks"]),
-    ("Argues", "#2F6DB5", ["risk_substance", "risk_denial", "race_logic", "policy_power", "exit_critique"]),
-    ("Noise and meta", "#8A93A1", ["meta_and_noise"]),
+    ("Expresses a reaction to the post", "#C2571A", ["existential_reaction", "cultural_framing"]),
+    ("Comments on the author", "#3B8F5E", ["endorse_amplify", "author_attacks"]),
+    ("Engages with substance", "#2F6DB5", ["risk_substance", "risk_denial", "race_logic", "policy_power", "exit_critique"]),
+    ("Other", "#8A93A1", ["meta_and_noise"]),
 ]
 SHORT = {
     "risk_substance": "Substantive risk debate", "risk_denial": "Risk denial or deflation", "race_logic": "Race logic and geopolitics",

@@ -13,10 +13,10 @@ DATA = Path(__file__).parent / "data" / ROOT_ID
 FIG = Path(__file__).parent / "figures"
 
 GROUPS = {  # super-group -> (label, hue color, category ids)
-    "argue": ("Argues", "#2F6DB5", ["risk_substance", "risk_denial", "race_logic", "policy_power", "exit_critique"]),
-    "react": ("Reacts", "#C2571A", ["existential_reaction", "cultural_framing"]),
-    "author": ("Judges the author", "#3B8F5E", ["endorse_amplify", "author_attacks"]),
-    "noise": ("Noise and meta", "#8A93A1", ["meta_and_noise"]),
+    "argue": ("Engages with substance", "#2F6DB5", ["risk_substance", "risk_denial", "race_logic", "policy_power", "exit_critique"]),
+    "react": ("Expresses a reaction to the post", "#C2571A", ["existential_reaction", "cultural_framing"]),
+    "author": ("Comments on the author", "#3B8F5E", ["endorse_amplify", "author_attacks"]),
+    "noise": ("Other", "#8A93A1", ["meta_and_noise"]),
 }
 SHORT = {  # shorter category labels for the ring
     "risk_substance": "Substantive risk debate", "risk_denial": "Risk denial", "race_logic": "Race and geopolitics",
