@@ -16,7 +16,7 @@ from pathlib import Path
 
 from build_blogpost import DATA, GROUPS, LANG, ROOT_ID, clean, pick, rows, translate
 
-FIG_SVG = Path(__file__).parent / "figures" / "taxonomy_sunburst.svg"
+FIG_SVG = Path(__file__).parent / "figures" / "taxonomy_bars.svg"
 
 
 def esc(s: str) -> str:
@@ -66,12 +66,8 @@ def main() -> None:
     pct = lambda x: f"{100 * x / n:.1f}%"
 
     svg = FIG_SVG.read_text()
-    svg = re.sub(r'<svg [^>]*>', '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1760 900" width="100%" role="img" aria-label="Two-ring donut of response categories">', svg, count=1)
-    svg = svg.replace('<rect width="1760" height="900" fill="#FFFFFF"/>', '')
-    # strip the in-SVG title/subtitle/source lines; the page supplies its own caption
-    svg = re.sub(r'<text x="30" y="34" class="title">.*?</text>', '', svg)
-    svg = re.sub(r'<text x="30" y="56" class="sub">.*?</text>', '', svg)
-    svg = re.sub(r'<text x="30" y="884" class="sub">.*?</text>', '', svg)
+    svg = re.sub(r'<svg [^>]*>', '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 530" width="100%" role="img" aria-label="Ten response categories by share of posts, grouped by move">', svg, count=1)
+    svg = re.sub(r'<rect width="900" height="\d+" fill="#FFFFFF"/>', '', svg)
 
     toc = "".join(f'<li><a href="#{gid}">{esc(gname)}</a> <span>{pct(sum(cat_n[c] for c in cids))}</span></li>' for gname, gid, cids, _ in GROUPS)
 
@@ -141,7 +137,7 @@ a {{ color: inherit; }}
 .eyebrow {{ font-family: var(--mono); font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-2); margin-bottom: 14px; }}
 .lede {{ font-size: 19px; color: var(--ink-2); margin: 14px 0 22px; }}
 .figure {{ background: #FFFFFF; border: 1px solid var(--line); padding: 10px 12px 4px; margin: 22px 0 6px; overflow-x: auto; }}
-.figure svg {{ display: block; min-width: 720px; }}
+.figure svg {{ display: block; min-width: 560px; }}
 figcaption {{ font-family: var(--display); font-size: 13px; color: var(--ink-2); margin: 6px 0 24px; }}
 .toc {{ list-style: none; padding: 0; margin: 18px 0 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 8px; }}
 .toc li {{ font-family: var(--display); font-size: 14px; border: 1px solid var(--line); background: var(--surface); padding: 8px 10px; display: flex; justify-content: space-between; }}
@@ -183,7 +179,7 @@ footer.page {{ margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--
 <h1>Taxonomizing ~17k responses to Jacob Coxon&#39;s viral tweet on quitting Anthropic</h1>
 
 <figure class="figure">{svg}</figure>
-<figcaption>Share of {n:,} visible replies and quote tweets, spam excluded. Inner ring: ten categories. Outer ring: 48 response types. Colour: the four moves below.</figcaption>
+<figcaption>Share of {n:,} visible replies and quote tweets, spam excluded, by category and move. Each category opens below into its response types.</figcaption>
 
 <p class="method"><b>Method, briefly.</b> X exposed 5,000 of the 13,000 replies and 14,000 of the quote tweets; the rest are hidden as low quality or come from restricted accounts. After dropping spam, {n:,} posts remained ({n_reply:,} replies, {n_quote:,} quotes). Claude Opus 5 read a 1,300-post sample and proposed ten categories with 48 response types, then assigned every post to one type. I grouped the ten categories into four moves. Each response type opens to its definition and three examples: the most-liked confident one, then two drawn at random so you see the typical case. Non-English posts carry a translation.</p>
 

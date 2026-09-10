@@ -137,7 +137,7 @@ def main() -> None:
     out.append(f"""# Taxonomizing ~17k responses to Jacob Coxon's viral tweet on quitting Anthropic
 
 
-![Two-ring donut of response categories](figures/taxonomy_sunburst.png)
+![Ten response categories by share, grouped by move](figures/taxonomy_bars.png)
 
 **Method, briefly.** X exposed 5,000 of the 13,000 replies and 14,000 of the quote tweets; the rest are hidden as low quality or come from restricted accounts. After dropping spam, {n:,} posts remained ({n_reply:,} replies, {n_quote:,} quotes). Claude Opus 5 read a 1,300-post sample and proposed ten categories with 48 response types, then assigned every post to one type. I grouped the ten categories into four moves. Percentages below are shares of all {n:,} posts. Each response type opens to its definition and three examples: the most-liked confident one, and two drawn at random so you see the typical case. Non-English posts carry a translation.
 

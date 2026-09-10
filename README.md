@@ -9,7 +9,7 @@ repo via GitHub Pages: **index.html**.
 
 - `index.html`: the post. Four moves, ten categories, 48 response types, each
   opening to its definition and three example posts with translations.
-- `figures/`: the two-ring donut (SVG + PNG).
+- `figures/`: the category bar chart used on the page, and the full two-ring donut of all 48 types (SVG + PNG).
 - `taxonomy.json`: the induced coding scheme with definitions and two example
   snippets per type.
 - `taxonomy_counts.json`: post counts per category, type, and venue.
