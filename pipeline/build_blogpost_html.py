@@ -190,7 +190,6 @@ footer.page {{ margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--
 
 <p class="method"><b>Method, briefly.</b> X exposed 5,000 of the 13,000 replies and 14,000 of the quote tweets; the rest are hidden as low quality or come from restricted accounts. After dropping spam, {n:,} posts remained ({n_reply:,} replies, {n_quote:,} quotes). Claude Opus 5 read a 1,300-post sample and proposed ten categories with 48 response types, then assigned every post to one type. I grouped the ten categories into four moves. Each response type opens to its definition and three examples: the most-liked confident one, then two drawn at random so you see the typical case. Non-English posts carry a translation.</p>
 
-<p><b>The short version.</b> Only 22% of posts engage the claim. 31% react, 25% judge the author (endorsement beats attack 18% to 7%), 22% are noise. Replies argue and quotes emote: argument, denial and attacks are 36% of replies but 12% of quotes. Among skeptics, most attack the messenger; the real cruxes are a small set of concrete gaps (mechanism, the off-switch, whether a token predictor can be an agent, base rates from past panics), each under 2% of posts. "If we stop, China wins" is the most common structured objection in the thread, and it concedes the danger while rejecting the response.</p>
 
 <ul class="toc">{toc}</ul>
 <hr>
