@@ -1,0 +1,581 @@
+{
+ "n_posts": 17541,
+ "counts": [
+  {
+   "category": "author_attacks",
+   "subcategory": "bot_fake_clout",
+   "kind": "quote",
+   "posts": 172
+  },
+  {
+   "category": "author_attacks",
+   "subcategory": "bot_fake_clout",
+   "kind": "reply",
+   "posts": 143
+  },
+  {
+   "category": "author_attacks",
+   "subcategory": "hypocrisy_profit",
+   "kind": "quote",
+   "posts": 115
+  },
+  {
+   "category": "author_attacks",
+   "subcategory": "hypocrisy_profit",
+   "kind": "reply",
+   "posts": 129
+  },
+  {
+   "category": "author_attacks",
+   "subcategory": "marketing_ipo_stunt",
+   "kind": "quote",
+   "posts": 233
+  },
+  {
+   "category": "author_attacks",
+   "subcategory": "marketing_ipo_stunt",
+   "kind": "reply",
+   "posts": 126
+  },
+  {
+   "category": "author_attacks",
+   "subcategory": "personal_insult",
+   "kind": "quote",
+   "posts": 88
+  },
+  {
+   "category": "author_attacks",
+   "subcategory": "personal_insult",
+   "kind": "reply",
+   "posts": 216
+  },
+  {
+   "category": "cultural_framing",
+   "subcategory": "conspiracy_psyop",
+   "kind": "quote",
+   "posts": 142
+  },
+  {
+   "category": "cultural_framing",
+   "subcategory": "conspiracy_psyop",
+   "kind": "reply",
+   "posts": 48
+  },
+  {
+   "category": "cultural_framing",
+   "subcategory": "literary_philosophical",
+   "kind": "quote",
+   "posts": 113
+  },
+  {
+   "category": "cultural_framing",
+   "subcategory": "literary_philosophical",
+   "kind": "reply",
+   "posts": 25
+  },
+  {
+   "category": "cultural_framing",
+   "subcategory": "nuclear_oppenheimer_analogy",
+   "kind": "quote",
+   "posts": 133
+  },
+  {
+   "category": "cultural_framing",
+   "subcategory": "nuclear_oppenheimer_analogy",
+   "kind": "reply",
+   "posts": 45
+  },
+  {
+   "category": "cultural_framing",
+   "subcategory": "scientist_ignored_trope",
+   "kind": "quote",
+   "posts": 119
+  },
+  {
+   "category": "cultural_framing",
+   "subcategory": "scientist_ignored_trope",
+   "kind": "reply",
+   "posts": 5
+  },
+  {
+   "category": "cultural_framing",
+   "subcategory": "scifi_pop_culture",
+   "kind": "quote",
+   "posts": 898
+  },
+  {
+   "category": "cultural_framing",
+   "subcategory": "scifi_pop_culture",
+   "kind": "reply",
+   "posts": 104
+  },
+  {
+   "category": "endorse_amplify",
+   "subcategory": "insider_expert_corroboration",
+   "kind": "quote",
+   "posts": 117
+  },
+  {
+   "category": "endorse_amplify",
+   "subcategory": "insider_expert_corroboration",
+   "kind": "reply",
+   "posts": 44
+  },
+  {
+   "category": "endorse_amplify",
+   "subcategory": "must_read_relay",
+   "kind": "quote",
+   "posts": 1738
+  },
+  {
+   "category": "endorse_amplify",
+   "subcategory": "must_read_relay",
+   "kind": "reply",
+   "posts": 36
+  },
+  {
+   "category": "endorse_amplify",
+   "subcategory": "praise_support_author",
+   "kind": "quote",
+   "posts": 114
+  },
+  {
+   "category": "endorse_amplify",
+   "subcategory": "praise_support_author",
+   "kind": "reply",
+   "posts": 145
+  },
+  {
+   "category": "endorse_amplify",
+   "subcategory": "substantive_agreement",
+   "kind": "quote",
+   "posts": 827
+  },
+  {
+   "category": "endorse_amplify",
+   "subcategory": "substantive_agreement",
+   "kind": "reply",
+   "posts": 142
+  },
+  {
+   "category": "existential_reaction",
+   "subcategory": "fatalist_doom_humor",
+   "kind": "quote",
+   "posts": 1356
+  },
+  {
+   "category": "existential_reaction",
+   "subcategory": "fatalist_doom_humor",
+   "kind": "reply",
+   "posts": 116
+  },
+  {
+   "category": "existential_reaction",
+   "subcategory": "generic_alarm_exclamation",
+   "kind": "quote",
+   "posts": 1495
+  },
+  {
+   "category": "existential_reaction",
+   "subcategory": "generic_alarm_exclamation",
+   "kind": "reply",
+   "posts": 36
+  },
+  {
+   "category": "existential_reaction",
+   "subcategory": "personal_fear_anxiety",
+   "kind": "quote",
+   "posts": 224
+  },
+  {
+   "category": "existential_reaction",
+   "subcategory": "personal_fear_anxiety",
+   "kind": "reply",
+   "posts": 20
+  },
+  {
+   "category": "existential_reaction",
+   "subcategory": "prepper_practical",
+   "kind": "quote",
+   "posts": 116
+  },
+  {
+   "category": "existential_reaction",
+   "subcategory": "prepper_practical",
+   "kind": "reply",
+   "posts": 35
+  },
+  {
+   "category": "existential_reaction",
+   "subcategory": "pro_extinction_nihilism",
+   "kind": "quote",
+   "posts": 125
+  },
+  {
+   "category": "existential_reaction",
+   "subcategory": "pro_extinction_nihilism",
+   "kind": "reply",
+   "posts": 39
+  },
+  {
+   "category": "existential_reaction",
+   "subcategory": "religious_apocalyptic",
+   "kind": "quote",
+   "posts": 144
+  },
+  {
+   "category": "existential_reaction",
+   "subcategory": "religious_apocalyptic",
+   "kind": "reply",
+   "posts": 26
+  },
+  {
+   "category": "exit_critique",
+   "subcategory": "demand_bolder_action",
+   "kind": "quote",
+   "posts": 65
+  },
+  {
+   "category": "exit_critique",
+   "subcategory": "demand_bolder_action",
+   "kind": "reply",
+   "posts": 68
+  },
+  {
+   "category": "exit_critique",
+   "subcategory": "resignation_futile",
+   "kind": "quote",
+   "posts": 17
+  },
+  {
+   "category": "exit_critique",
+   "subcategory": "resignation_futile",
+   "kind": "reply",
+   "posts": 33
+  },
+  {
+   "category": "exit_critique",
+   "subcategory": "should_have_stayed",
+   "kind": "quote",
+   "posts": 25
+  },
+  {
+   "category": "exit_critique",
+   "subcategory": "should_have_stayed",
+   "kind": "reply",
+   "posts": 64
+  },
+  {
+   "category": "meta_and_noise",
+   "subcategory": "content_free_offtopic",
+   "kind": "quote",
+   "posts": 2109
+  },
+  {
+   "category": "meta_and_noise",
+   "subcategory": "content_free_offtopic",
+   "kind": "reply",
+   "posts": 769
+  },
+  {
+   "category": "meta_and_noise",
+   "subcategory": "market_investment_take",
+   "kind": "quote",
+   "posts": 71
+  },
+  {
+   "category": "meta_and_noise",
+   "subcategory": "market_investment_take",
+   "kind": "reply",
+   "posts": 48
+  },
+  {
+   "category": "meta_and_noise",
+   "subcategory": "questions_to_author",
+   "kind": "quote",
+   "posts": 23
+  },
+  {
+   "category": "meta_and_noise",
+   "subcategory": "questions_to_author",
+   "kind": "reply",
+   "posts": 100
+  },
+  {
+   "category": "meta_and_noise",
+   "subcategory": "reply_discourse_meta",
+   "kind": "quote",
+   "posts": 108
+  },
+  {
+   "category": "meta_and_noise",
+   "subcategory": "reply_discourse_meta",
+   "kind": "reply",
+   "posts": 75
+  },
+  {
+   "category": "meta_and_noise",
+   "subcategory": "unroll_bot_boilerplate",
+   "kind": "quote",
+   "posts": 9
+  },
+  {
+   "category": "meta_and_noise",
+   "subcategory": "unroll_bot_boilerplate",
+   "kind": "reply",
+   "posts": 157
+  },
+  {
+   "category": "meta_and_noise",
+   "subcategory": "virality_metrics",
+   "kind": "quote",
+   "posts": 368
+  },
+  {
+   "category": "meta_and_noise",
+   "subcategory": "virality_metrics",
+   "kind": "reply",
+   "posts": 16
+  },
+  {
+   "category": "policy_power",
+   "subcategory": "capitalism_incentive_critique",
+   "kind": "quote",
+   "posts": 223
+  },
+  {
+   "category": "policy_power",
+   "subcategory": "capitalism_incentive_critique",
+   "kind": "reply",
+   "posts": 55
+  },
+  {
+   "category": "policy_power",
+   "subcategory": "coordination_feasibility",
+   "kind": "quote",
+   "posts": 36
+  },
+  {
+   "category": "policy_power",
+   "subcategory": "coordination_feasibility",
+   "kind": "reply",
+   "posts": 41
+  },
+  {
+   "category": "policy_power",
+   "subcategory": "democratize_open_source",
+   "kind": "quote",
+   "posts": 37
+  },
+  {
+   "category": "policy_power",
+   "subcategory": "democratize_open_source",
+   "kind": "reply",
+   "posts": 26
+  },
+  {
+   "category": "policy_power",
+   "subcategory": "electoral_partisan",
+   "kind": "quote",
+   "posts": 37
+  },
+  {
+   "category": "policy_power",
+   "subcategory": "electoral_partisan",
+   "kind": "reply",
+   "posts": 23
+  },
+  {
+   "category": "policy_power",
+   "subcategory": "government_failure_blame",
+   "kind": "quote",
+   "posts": 72
+  },
+  {
+   "category": "policy_power",
+   "subcategory": "government_failure_blame",
+   "kind": "reply",
+   "posts": 9
+  },
+  {
+   "category": "policy_power",
+   "subcategory": "regulation_ban_calls",
+   "kind": "quote",
+   "posts": 269
+  },
+  {
+   "category": "policy_power",
+   "subcategory": "regulation_ban_calls",
+   "kind": "reply",
+   "posts": 32
+  },
+  {
+   "category": "race_logic",
+   "subcategory": "accelerationist_upside",
+   "kind": "quote",
+   "posts": 82
+  },
+  {
+   "category": "race_logic",
+   "subcategory": "accelerationist_upside",
+   "kind": "reply",
+   "posts": 85
+  },
+  {
+   "category": "race_logic",
+   "subcategory": "china_must_win",
+   "kind": "quote",
+   "posts": 86
+  },
+  {
+   "category": "race_logic",
+   "subcategory": "china_must_win",
+   "kind": "reply",
+   "posts": 181
+  },
+  {
+   "category": "race_logic",
+   "subcategory": "inevitability_genie",
+   "kind": "quote",
+   "posts": 136
+  },
+  {
+   "category": "race_logic",
+   "subcategory": "inevitability_genie",
+   "kind": "reply",
+   "posts": 99
+  },
+  {
+   "category": "race_logic",
+   "subcategory": "rejects_race_framing",
+   "kind": "quote",
+   "posts": 27
+  },
+  {
+   "category": "race_logic",
+   "subcategory": "rejects_race_framing",
+   "kind": "reply",
+   "posts": 138
+  },
+  {
+   "category": "risk_denial",
+   "subcategory": "demand_falsifiable_evidence",
+   "kind": "quote",
+   "posts": 56
+  },
+  {
+   "category": "risk_denial",
+   "subcategory": "demand_falsifiable_evidence",
+   "kind": "reply",
+   "posts": 64
+  },
+  {
+   "category": "risk_denial",
+   "subcategory": "doomer_cult_label",
+   "kind": "quote",
+   "posts": 240
+  },
+  {
+   "category": "risk_denial",
+   "subcategory": "doomer_cult_label",
+   "kind": "reply",
+   "posts": 102
+  },
+  {
+   "category": "risk_denial",
+   "subcategory": "just_unplug_it",
+   "kind": "quote",
+   "posts": 94
+  },
+  {
+   "category": "risk_denial",
+   "subcategory": "just_unplug_it",
+   "kind": "reply",
+   "posts": 66
+  },
+  {
+   "category": "risk_denial",
+   "subcategory": "not_real_intelligence",
+   "kind": "quote",
+   "posts": 119
+  },
+  {
+   "category": "risk_denial",
+   "subcategory": "not_real_intelligence",
+   "kind": "reply",
+   "posts": 163
+  },
+  {
+   "category": "risk_denial",
+   "subcategory": "prior_tech_panic_analogy",
+   "kind": "quote",
+   "posts": 64
+  },
+  {
+   "category": "risk_denial",
+   "subcategory": "prior_tech_panic_analogy",
+   "kind": "reply",
+   "posts": 28
+  },
+  {
+   "category": "risk_substance",
+   "subcategory": "alignment_control_theory",
+   "kind": "quote",
+   "posts": 102
+  },
+  {
+   "category": "risk_substance",
+   "subcategory": "alignment_control_theory",
+   "kind": "reply",
+   "posts": 109
+  },
+  {
+   "category": "risk_substance",
+   "subcategory": "asks_for_mechanism",
+   "kind": "quote",
+   "posts": 56
+  },
+  {
+   "category": "risk_substance",
+   "subcategory": "asks_for_mechanism",
+   "kind": "reply",
+   "posts": 82
+  },
+  {
+   "category": "risk_substance",
+   "subcategory": "probability_tradeoff",
+   "kind": "quote",
+   "posts": 25
+  },
+  {
+   "category": "risk_substance",
+   "subcategory": "probability_tradeoff",
+   "kind": "reply",
+   "posts": 24
+  },
+  {
+   "category": "risk_substance",
+   "subcategory": "rebuts_skeptics",
+   "kind": "quote",
+   "posts": 50
+  },
+  {
+   "category": "risk_substance",
+   "subcategory": "rebuts_skeptics",
+   "kind": "reply",
+   "posts": 226
+  },
+  {
+   "category": "risk_substance",
+   "subcategory": "supplies_scenario",
+   "kind": "quote",
+   "posts": 169
+  },
+  {
+   "category": "risk_substance",
+   "subcategory": "supplies_scenario",
+   "kind": "reply",
+   "posts": 134
+  }
+ ]
+}

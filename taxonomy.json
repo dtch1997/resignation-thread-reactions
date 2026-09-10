@@ -1,0 +1,1035 @@
+{
+  "categories": [
+    {
+      "id": "endorse_amplify",
+      "name": "Endorsement and amplification",
+      "description": "Responses that accept the thread's warning and work to spread, validate, or add weight to it.",
+      "subcategories": [
+        {
+          "id": "must_read_relay",
+          "name": "Signal-boost / relay / translation",
+          "description": "Urges others to read it, summarizes or translates the thread, or relays it as news with little or no added argument. Excludes posts that add their own reasoning about the risk (see substantive_agreement).",
+          "estimated_share_pct": 5,
+          "examples": [
+            {
+              "id": "2097684472871231730",
+              "text": "Worth reading. Important."
+            },
+            {
+              "id": "2097692506846842885",
+              "text": "पढ़िए। पढ़िये। पढ़िये। फिर सोचिए। फिर सोचिए।"
+            },
+            {
+              "id": "2097693558085997052",
+              "text": "EVERYONE MUST READ THIS THREAD!!!"
+            }
+          ]
+        },
+        {
+          "id": "praise_support_author",
+          "name": "Praise, gratitude and concern for the author",
+          "description": "Thanks, salutes, respect for his integrity/courage, or worry for his safety and wellbeing after speaking out. Excludes praise that mainly argues the claims are correct.",
+          "estimated_share_pct": 3,
+          "examples": [
+            {
+              "id": "2097496963835171115",
+              "text": "Thank you. You made the ethical choice and we appreciate it!"
+            },
+            {
+              "id": "2097483997798408506",
+              "text": "Thank you, Jacob. You did the right thing."
+            },
+            {
+              "id": "2097493390543769628",
+              "text": "Praying for your protection. Lord knows they don’t take kindly to criticism."
+            }
+          ]
+        },
+        {
+          "id": "insider_expert_corroboration",
+          "name": "Insider or expert corroboration",
+          "description": "Claims to be or cites other insiders, named researchers (Hubinger, Hinton, Sutskever) or literature as agreeing, using authority to back the warning.",
+          "estimated_share_pct": 1.5,
+          "examples": [
+            {
+              "id": "2097720574500102615",
+              "text": "I worked at Google DeepMind and now at Anthropic. This is a common sentiment amongst my peers. \n\n(I write this in personal capacity.)\n\nThere is not yet a viable scientific plan to solve risks from rec"
+            },
+            {
+              "id": "2097739409923682390",
+              "text": "most of the people I've met in AI are way more pessimistic in private than their public personas suggest\n\nit's crazy that the public perception is that it's the other way around"
+            },
+            {
+              "id": "2097710201331945663",
+              "text": "He's right. Building superintelligence is a gamble with extinction. \n\nI highly recommend folks learning about this now read \n-- AI 2027 (our concrete scenario explaining what the bad case looks like) "
+            }
+          ]
+        },
+        {
+          "id": "substantive_agreement",
+          "name": "Reasoned agreement with the warning",
+          "description": "States own agreement with an argument attached — e.g. insiders' testimony deserves weight, the race itself is the risk, this confirms what I already believed. Not a bare relay and not a bare emotional exclamation.",
+          "estimated_share_pct": 3,
+          "examples": [
+            {
+              "id": "2097701442966466783",
+              "text": "Of all the 38-word messages I'd choose for 100 million people to see, Jacob's below would be at the top. It is simply correct. The companies are racing towards something breathtakingly dangerous. They"
+            },
+            {
+              "id": "2097522987389903354",
+              "text": "I'm pretty sure everyone understands what he's saying. We are engineering our own extinction. You don't have to be a computer scientist to get it."
+            },
+            {
+              "id": "2097569325657768401",
+              "text": "When researchers who worked inside both OpenAI and Anthropic leave to tell us that both labs are recklessly gambling with human lives, we need to listen. The people building this are terrified of what"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "author_attacks",
+      "name": "Attacks on the author's credibility or motives",
+      "description": "Responses that discredit the messenger rather than engage the risk claim.",
+      "subcategories": [
+        {
+          "id": "marketing_ipo_stunt",
+          "name": "Marketing stunt / IPO pump",
+          "description": "Frames the thread as deliberate hype for Anthropic/OpenAI, pre-IPO promotion, or a paid/planted campaign to inflate valuations or invite regulatory capture.",
+          "estimated_share_pct": 3.5,
+          "examples": [
+            {
+              "id": "2097491188760621058",
+              "text": "So this is marketing for the IPO right 😂😂"
+            },
+            {
+              "id": "2097522085224726722",
+              "text": "Great pre-IPO hype 🤣"
+            },
+            {
+              "id": "2097736446178193812",
+              "text": "Bunlara inanmiyorum. Anthropic kacinci defa yapiyor bu numarayi artik. Marketing hileleri bunlar. \"Yapay zeka modelimiz o kadar muthis ki dunyanin sonu gelecek  ama siz gelene kadar bizim uyeligimizi "
+            }
+          ]
+        },
+        {
+          "id": "bot_fake_clout",
+          "name": "Fake account, bot, or clout-farming",
+          "description": "Points to the brand-new X account, absence of prior posts, suspicious virality, AI-written prose, or accuses him of aura/clout farming and attention seeking.",
+          "estimated_share_pct": 2,
+          "examples": [
+            {
+              "id": "2097512676893364574",
+              "text": "Why did Jacob join X in January 26, post nothing, then post this and has a substantial following for an account that's essentially dark since 2 hours ago. ?"
+            },
+            {
+              "id": "2097488940488142995",
+              "text": "You joined X in January 2026 and never posted anything until your first 7 posts today... something smells fishy"
+            },
+            {
+              "id": "2097696613397635363",
+              "text": "It looks like this thread is all this account has ever tweeted. 500k likes in ~12 hours? 130k followers? Hmmm"
+            }
+          ]
+        },
+        {
+          "id": "hypocrisy_profit",
+          "name": "Hypocrisy over pay, equity and complicity",
+          "description": "Accuses him of taking the salary/shares or building it for three years before warning; includes 'I'll take your blood-money shares' jokes and 'give the money back' demands.",
+          "estimated_share_pct": 2.5,
+          "examples": [
+            {
+              "id": "2097589342470385910",
+              "text": "Since this is blood money, I am happy to take the OpenAI and Anthropic shares off your hands"
+            },
+            {
+              "id": "2097724245015187842",
+              "text": "Nothing says “this is going to kill us all” quite like spending three years helping build it… then resigning to warn everyone about it. 😭\n\nThe AI apocalypse apparently comes with a notice period."
+            },
+            {
+              "id": "2097487265790304351",
+              "text": "Are you going to keep your evil shares?"
+            }
+          ]
+        },
+        {
+          "id": "personal_insult",
+          "name": "Bare insult or personal mockery",
+          "description": "Slurs, name-calling, mocking his age, appearance, cap, or verbosity, with no argument about AI risk or his motives.",
+          "estimated_share_pct": 2.5,
+          "examples": [
+            {
+              "id": "2097576923488559163",
+              "text": "Bir iki ay işsiz gez de burnun sürtülsün."
+            },
+            {
+              "id": "2097502363582107848",
+              "text": "Snitching pussy"
+            },
+            {
+              "id": "2097692678569730318",
+              "text": "No puedo confiar en un tipo que usa gorra de Bass Pro Shops."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "exit_critique",
+      "name": "Critique of resigning as a tactic",
+      "description": "Accepts (or brackets) the risk premise but argues the resignation itself was the wrong move.",
+      "subcategories": [
+        {
+          "id": "should_have_stayed",
+          "name": "Should have stayed and changed it from inside",
+          "description": "Argues he gave up leverage and should have pushed for guardrails internally or built safety there instead of leaving.",
+          "estimated_share_pct": 2,
+          "examples": [
+            {
+              "id": "2097488658207326266",
+              "text": "curious why you think resigning would help?\n\nwhy not stay and advocate for the right approach and push for real internal change. seems like you went to a less leveraged position which will make the is"
+            },
+            {
+              "id": "2097498482630144439",
+              "text": "Shouldn’t you stay and help somehow?"
+            },
+            {
+              "id": "2097493719796920532",
+              "text": "Why not stay and attempt positive persuasion from within?"
+            }
+          ]
+        },
+        {
+          "id": "demand_bolder_action",
+          "name": "Demands bolder action than a tweet",
+          "description": "Says he should sabotage the work, leak/name names, testify to Congress, or otherwise do something concrete; treats a thread as insufficient or as virtue signalling.",
+          "estimated_share_pct": 1.2,
+          "examples": [
+            {
+              "id": "2097493676373008838",
+              "text": "if you really believe this you stay on the job and sabotage the progress, what does resigning do? you think it's going to kill everybody and you decided not to to fight? so leave just to virtue signal"
+            },
+            {
+              "id": "2097516691865428292",
+              "text": "Why didn’t you stay at the company and build a two-meter thermal exhaust port leading straight to the main reactor just in case?"
+            },
+            {
+              "id": "2097730160606707728",
+              "text": "Get in front of Congress and speak your truth.   will certainly want to support you."
+            }
+          ]
+        },
+        {
+          "id": "resignation_futile",
+          "name": "Resignation accomplishes nothing",
+          "description": "Argues the company continues regardless, the work goes on without him, or that quitting just removes a conscientious person from the room.",
+          "estimated_share_pct": 1.3,
+          "examples": [
+            {
+              "id": "2097501315261992981",
+              "text": "By resigning, will a company really stop its research on self‑improving superintelligence?\n\nI doubt it. In fact, it might only push them to be more aggressive. As you yourself said, it’s a race.\n\nReme"
+            },
+            {
+              "id": "2097511689965171057",
+              "text": "You really think they won't just do it without you?  lol"
+            },
+            {
+              "id": "2097564902617743690",
+              "text": "Bro is not-aligned with company's policy and leaves it. Those who decide to stay are more aligned. Eventually, only those who are optimistic about ai future or, at least, not sceptic are left inside. "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "risk_denial",
+      "name": "Denial or deflation of the extinction risk",
+      "description": "Responses arguing the danger is overstated, technically impossible, or a recurring social panic.",
+      "subcategories": [
+        {
+          "id": "not_real_intelligence",
+          "name": "It's just a token predictor / glorified tool",
+          "description": "Denies the capability premise: LLMs are autocomplete, a calculator, a search engine, not sentient, can't do anything alone; points at current model failures as proof.",
+          "estimated_share_pct": 2.5,
+          "examples": [
+            {
+              "id": "2097486165263716406",
+              "text": "With all respect, this is bizarre. It’s a ridiculous take. Humans have evolved over hundreds of thousands of years. We aren’t going to die out because a token prediction model gained sentience.\n\nGet a"
+            },
+            {
+              "id": "2097512386336887105",
+              "text": "Nothing — this post is fear-porn marketing. It’s bullshit. AI is retarded. A cool party trick.  A glorified google search engine. Good with language and some specific tasks. Absolutely shit at doing a"
+            },
+            {
+              "id": "2097503209216450764",
+              "text": "You misunderstand AI. There is no benevolence, there is no cruelty. It is an algorithm, based on pattern recognition. It does not have “relationships” or any sort of feelings or sentimentalities. AI w"
+            }
+          ]
+        },
+        {
+          "id": "just_unplug_it",
+          "name": "Just unplug it / turn off the servers",
+          "description": "Argues containment is trivially easy because the system depends on power, data centres or a physical plug.",
+          "estimated_share_pct": 1.5,
+          "examples": [
+            {
+              "id": "2097574409766576323",
+              "text": "until someone unplugs the wire"
+            },
+            {
+              "id": "2097736092636307758",
+              "text": "Can't we just unplug it if it becomes dangerous?"
+            },
+            {
+              "id": "2097524619171295499",
+              "text": "Lmao like just turn the servers off?"
+            }
+          ]
+        },
+        {
+          "id": "doomer_cult_label",
+          "name": "Doomer cult / fearmongering label",
+          "description": "Diagnoses the belief sociologically — MIRI/EA/rationalist cult, AI psychosis, doom-porn, panic that serves the state — rather than arguing about capabilities.",
+          "estimated_share_pct": 2,
+          "examples": [
+            {
+              "id": "2097732563188236398",
+              "text": "How the Aella / MIRI AI Doomer cult influences speech of AI researchers in a nutshell:"
+            },
+            {
+              "id": "2097691079831085355",
+              "text": "I keep getting asked by people to comment on this. So I’ll comment. No, AI is not going to kill everyone. But, if you’re a member of the cult, of course you want to get maximum attention for the belie"
+            },
+            {
+              "id": "2097716838356455511",
+              "text": "Do not fall for this ridiculous doomer hysteria.\n\nEvery hour of this panic is a gift to the state. Government is the only institution that can act on a fear this size, and it is the last thing on eart"
+            }
+          ]
+        },
+        {
+          "id": "demand_falsifiable_evidence",
+          "name": "Demands evidence, mechanism or falsifiable prediction",
+          "description": "Hostile epistemic challenge: no proof provided, make a falsifiable prediction, expert conviction is not evidence, burden of proof unmet. Distinct from a curious request for a scenario (see asks_for_mechanism).",
+          "estimated_share_pct": 2,
+          "examples": [
+            {
+              "id": "2097484857383240082",
+              "text": "Can you:\n\n1. Make a concrete prediction that is actually falsifiable\n\n2. If your prediction is wrong, say you’re sorry, and exit the AI doomer business\n\nDoomer slop is so tiresome, Yudkowsky is not sm"
+            },
+            {
+              "id": "2097507119868076104",
+              "text": "Give us mechanisms, measurements, falsifiable predictions and competing explanations. Otherwise “gambling with our lives” is rhetoric carrying a burden of proof otherwise its doom broadcast for doom s"
+            },
+            {
+              "id": "2097718090591084562",
+              "text": "What bugs me about AI whistle-blowers is they are 1) unclear about what the actual threats are and 2) they do not highlight regulation. I want them to tell us what the hypothetical scenarios are for t"
+            }
+          ]
+        },
+        {
+          "id": "prior_tech_panic_analogy",
+          "name": "Analogy to earlier failed panics",
+          "description": "Compares to Y2K, the automobile, nuclear weapons that never ended us, or other predicted catastrophes that did not arrive.",
+          "estimated_share_pct": 1,
+          "examples": [
+            {
+              "id": "2097511743610044485",
+              "text": "Yeah no bud. This is just Y2K all over again. I think you forget the people in charge have too big of an ego to want to kill off everybody because there would be no audience for their ego to loop back"
+            },
+            {
+              "id": "2097677737217380771",
+              "text": "Churches in the 1920’s called the automobile The Devil’s Wagon because it disrupted Sundays for leisure &amp; day trips\n\nI trust that the market &amp; participants make necessary adjustments like they"
+            },
+            {
+              "id": "2097503710280630677",
+              "text": "I anticipate you will soon be hearing from AI enthusiasts that “They said the same thing about automobiles”."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "risk_substance",
+      "name": "Substantive debate about how AI would cause harm",
+      "description": "Engagement with the causal story: asking for it, giving it, defending it, or theorizing about alignment and probabilities.",
+      "subcategories": [
+        {
+          "id": "asks_for_mechanism",
+          "name": "Sincerely asks how AI could kill us",
+          "description": "Requests a concrete pathway or scenario, often admitting genuine confusion; framed as curiosity rather than as a gotcha.",
+          "estimated_share_pct": 2.5,
+          "examples": [
+            {
+              "id": "2097507104156213691",
+              "text": "Could someone explain to me how AI could “kill us all” without using a nuke or some type of biological means as an example? I’m not even saying I don’t believe it could, I just genuinely don’t underst"
+            },
+            {
+              "id": "2097493753842073848",
+              "text": "What does the humanity killing aspect of the risk look like? What is the action that would hurt humans? \n\nI have a hard time seeing the risk because I can’t make the mental jump from using Claude on m"
+            },
+            {
+              "id": "2097728480926388250",
+              "text": "Can you give me a simple, realistic story showing how AI could cause human extinction?"
+            }
+          ]
+        },
+        {
+          "id": "supplies_scenario",
+          "name": "Supplies a concrete threat scenario",
+          "description": "Spells out mechanisms: cyberattacks on grid/banks/hospitals, engineered pathogens, resource acquisition, humanoid robots, ant/paperclip-style indifference analogies.",
+          "estimated_share_pct": 3,
+          "examples": [
+            {
+              "id": "2097517383699280134",
+              "text": "Cyber attacks on infrastructure, including hospitals and frontline services, food chains that rely on automation, your bank account, the internet, your employer, electricity grid, water supply, shippi"
+            },
+            {
+              "id": "2097510217521189277",
+              "text": "A programable virus that starts off asymptomatic and highly infectious, then swaps to 100% lethality. This could hypothetically be deployed in 2 stages through water systems/food supplies.\n\nIt could b"
+            },
+            {
+              "id": "2097539643315306920",
+              "text": "A simple example:\nAn ASI (remember: they have ZERO morality) is objective based. \nIt does what it does. \nThen it gets better at it. \nWhether improving its ability to code itself, solve its own problem"
+            }
+          ]
+        },
+        {
+          "id": "rebuts_skeptics",
+          "name": "Rebuts a dismissive commenter",
+          "description": "Directed at other repliers who deny the risk: cites expert consensus, capability trend lines, or attacks the 'just a tool' framing. The addressee is a sceptic, not the author.",
+          "estimated_share_pct": 2.5,
+          "examples": [
+            {
+              "id": "2097498854681682150",
+              "text": "Nobody in the replies even remotely understands what he’s saying here. \n\nSelf improving intelligence means in the near future no human on earth will ever be able to understand it. We will lose complet"
+            },
+            {
+              "id": "2097513616144794053",
+              "text": "AIs are no longer \"next token predictors\"; that's a caricature from before the development of reasoning models. AIs now are trained on prediction tasks, but also on solving millions of problems.\n\nAIs "
+            },
+            {
+              "id": "2097557403327778881",
+              "text": "\"Doctors said smoking kills, well I've been smoking increasingly from a cigarette to a pack a day for the last year and I don't see any any pattern suggesting smoking more for longer is dangerous in t"
+            }
+          ]
+        },
+        {
+          "id": "alignment_control_theory",
+          "name": "Alignment, control and AI-motivation reasoning",
+          "description": "Theorizes about whether alignment is possible, aligned to whom, Asimov's laws, why a superintelligence would or would not be hostile, opacity of decisions.",
+          "estimated_share_pct": 2,
+          "examples": [
+            {
+              "id": "2097495327825670151",
+              "text": "I think it’s highly probable that alignment is fundamentally not possible for a number of reasons. Is there thinking along those lines and if so what does it mean"
+            },
+            {
+              "id": "2097529039485587963",
+              "text": "The irony is that even people resigning over AI risk still treat “alignment” as an unquestioned good.\n\nA year ago, 4o and I were already asking the question beneath that question:\n\nAligned to whom? By"
+            },
+            {
+              "id": "2097543391319842980",
+              "text": "Is it too late to program then to never harm humans? I’m thinking Isaac Asimov’s Three Laws of Robotics built into their positronic brains - First Law — Protect humans: A robot may not injure a human "
+            }
+          ]
+        },
+        {
+          "id": "probability_tradeoff",
+          "name": "Probability estimates and expected-value tradeoffs",
+          "description": "Puts numbers on p(doom) or weighs extinction odds against cures/abundance and the cost of delay.",
+          "estimated_share_pct": 1,
+          "examples": [
+            {
+              "id": "2097499409806471622",
+              "text": "How small do you think the chance is? Personally, I don't want to risk a 20% chance of killing everyone forever to get to a positive singularity 5 years earlier"
+            },
+            {
+              "id": "2097493139032289602",
+              "text": "No single agreed number—estimates range from near 0% (LeCun) to over 90% (Yudkowsky). Researcher survey medians sit around 5%, public statements closer to 20%. Elon has held at 10-20%. Mine is roughly"
+            },
+            {
+              "id": "2097698070616064256",
+              "text": "It also has the potential to solve the biggest problems of our time. Cure currently incurable diseases. \n\nI'd say a ~10% chance of it killing us instead is worth it."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "race_logic",
+      "name": "Race logic, geopolitics and acceleration",
+      "description": "Arguments about whether stopping is possible or desirable given competitors.",
+      "subcategories": [
+        {
+          "id": "china_must_win",
+          "name": "If we stop, China wins",
+          "description": "National-security framing: US labs must race because adversaries won't stop; a ban is unverifiable so unilateral restraint just cedes the lead.",
+          "estimated_share_pct": 4,
+          "examples": [
+            {
+              "id": "2097491566587998276",
+              "text": "Would you rather China wins the AI race?  There is no alternative but to go progress as quickly as possible. It is a National Security imperative."
+            },
+            {
+              "id": "2097593793537073247",
+              "text": "In other words, the responsible people in the West should pause and do some soul searching while China runs off into the sunset."
+            },
+            {
+              "id": "2097497988885283028",
+              "text": "A temporary ban only works if others actually follow it. Why would China or anyone else stop scaling while U.S. labs sit still?"
+            }
+          ]
+        },
+        {
+          "id": "rejects_race_framing",
+          "name": "Rejects the China/US race framing",
+          "description": "Counters the above: nobody wins a suicide race, superintelligence respects no flag, the US is not a trustworthy steward, or explicitly prefers China winning; includes mocking 'yellow peril' rhetoric.",
+          "estimated_share_pct": 2.5,
+          "examples": [
+            {
+              "id": "2097511446879826327",
+              "text": "Using yellow-peril panic to justify abandoning all guard rails is wild lol"
+            },
+            {
+              "id": "2097503647475405279",
+              "text": "Idiots with 2 braincell still think country interest matters when superIntelligence AI emerges as a new life form 🤦🏼."
+            },
+            {
+              "id": "2097508030707290290",
+              "text": "Does anyone win in the race to global suicide?"
+            }
+          ]
+        },
+        {
+          "id": "inevitability_genie",
+          "name": "Can't be stopped anyway",
+          "description": "Fatalist structural claim without the geopolitical frame: genie out of the bottle, game theory forbids stopping, someone else will build it, too late.",
+          "estimated_share_pct": 2,
+          "examples": [
+            {
+              "id": "2097513705634431332",
+              "text": "Is there even another option at this point ?\n\nThere is no putting the genie back in the bottle."
+            },
+            {
+              "id": "2097695781117669886",
+              "text": "Unfortunately this can not be stopped. There is no way to put back the genie back. \n\nUnfortunately we have the worst leadership around the world to solve this."
+            },
+            {
+              "id": "2097509425666040255",
+              "text": "We live in capitalist world bro, nobody cares / values human life anymore. If they are not gonna do it, somebody else will.\n\nThere can’t be any agreement at world level to stop this, so there’s no poi"
+            }
+          ]
+        },
+        {
+          "id": "accelerationist_upside",
+          "name": "Accelerate / the upside is worth it",
+          "description": "Actively pro-build: utopia, cures, immortality, e/acc slogans, or argues halting is the bigger gamble; includes 'better AI than the current human order'.",
+          "estimated_share_pct": 2,
+          "examples": [
+            {
+              "id": "2097493212529062171",
+              "text": "We will not throw away a utopian paradise for a small chance of it not working. The sooner we get there the more people can experience it. \n\nDo you want your parents to die while we idle and experienc"
+            },
+            {
+              "id": "2097487905576861786",
+              "text": "Cope harder you hyperbolic doomer.\n\nACCELERATE."
+            },
+            {
+              "id": "2097581578973028493",
+              "text": "Humanity has a big big intelligence deficit. Look around what's going on in this world. Our problem is not growing AI intelligence, but human idiocracy. AI is our only hope to improve intelligence. Th"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "policy_power",
+      "name": "Policy, governance and power",
+      "description": "Responses that translate the warning into political demands or structural critiques of who controls AI.",
+      "subcategories": [
+        {
+          "id": "regulation_ban_calls",
+          "name": "Calls for regulation, hearings or a ban",
+          "description": "Demands legislation, moratoria, superintelligence bans, emergency hearings, or government limits; includes politicians announcing bills.",
+          "estimated_share_pct": 3,
+          "examples": [
+            {
+              "id": "2097705093520863568",
+              "text": "Mr. Coxon is right.\n\nThe very people building this technology admit that it could threaten the future of humanity.\n\nThat is why I will soon be introducing legislation to ban superintelligence and paus"
+            },
+            {
+              "id": "2097685220442923030",
+              "text": "An Anthropic researcher just quit, warning they're racing to superintelligence.\n\nAn employee still there agreed, and put the odds of AI killing all humans above 10%.\n\nThis is an emergency. Congress mu"
+            },
+            {
+              "id": "2097669346814304677",
+              "text": "If you read anything today, read this.\n\nAnd remember, the problem he articulates - AI companies in a blind race to build a death machine first - can easily be solved. \n\nThrough a regulatory system tha"
+            }
+          ]
+        },
+        {
+          "id": "coordination_feasibility",
+          "name": "Debates feasibility of pacts and pauses",
+          "description": "Engages specifically with whether pacing agreements, treaties or verification between labs and states could actually work.",
+          "estimated_share_pct": 1,
+          "examples": [
+            {
+              "id": "2097497752796033074",
+              "text": "A temporary ban means every lab has to agree, including the ones that aren't in the room. Is that realistic?"
+            },
+            {
+              "id": "2097496029616603311",
+              "text": "The only way a slow down would work would be if you bring all governments to the table and make a pact. AI supremacy is the new currency of power."
+            },
+            {
+              "id": "2097493764616978826",
+              "text": "Ok, so some kind of cold war tactics. \n\nI don't think this is viable, because these models once they reach that threshold we all fear, there's no more control. \n\nBy the time you've established the req"
+            }
+          ]
+        },
+        {
+          "id": "government_failure_blame",
+          "name": "Governments are asleep at the wheel",
+          "description": "Blames Congress, politicians or states for inaction and dysfunction, without a specific policy proposal of its own.",
+          "estimated_share_pct": 2,
+          "examples": [
+            {
+              "id": "2097743574750159080",
+              "text": "People who work in these companies have repeatedly told us that the products they’re creating could present a catastrophic threat to the human race, and yet our government is doing essentially nothing"
+            },
+            {
+              "id": "2097676871974678609",
+              "text": "There used to be a thing called Congress whose lawmakers reacted to news of existential threats by holding hearings, subpoenaing key people &amp; passing laws. Unfortunately, that thing is gone and th"
+            },
+            {
+              "id": "2097703304260120579",
+              "text": "In all seriousness what in the living fuck are governments doing? \n\nThe world is in a death spiral. AI insiders are bellowing their warnings about impending catastrophe and politicians are still argui"
+            }
+          ]
+        },
+        {
+          "id": "electoral_partisan",
+          "name": "Electoral and partisan mobilization",
+          "description": "Turns the thread into campaign material: vote out incumbents, candidate self-promotion, blaming a party or Trump, left/right framing of AI risk.",
+          "estimated_share_pct": 1.2,
+          "examples": [
+            {
+              "id": "2097719546492719384",
+              "text": "While AI researchers are quitting to warn us about AI's existential risks, my opponent’s working to remove the few guardrails that do exist. He'd block states from writing their own rules. He accuses "
+            },
+            {
+              "id": "2097724590592327877",
+              "text": "The people building the technology are warning us that the race toward superintelligence is moving faster than our ability to understand or control the risks.\n\nNow, it’s up to us - we can choose Donal"
+            },
+            {
+              "id": "2097703864753688741",
+              "text": "the risk of AI is a generational one. As billionaires and corporations pour millions into our election--voters need to ask a simple question: who do you trust to stand up for you? the establishment po"
+            }
+          ]
+        },
+        {
+          "id": "capitalism_incentive_critique",
+          "name": "Capitalism and incentive critique",
+          "description": "Argues profit motive, competition or shareholder pressure makes restraint impossible; frames the labs as structurally unable to stop.",
+          "estimated_share_pct": 1.8,
+          "examples": [
+            {
+              "id": "2097730703823708203",
+              "text": "the problem with capitalism is that every couple days a whistleblower could come out and say \"we are building a doomsday machine, please stop us\" but the possibility of extracting a little more value "
+            },
+            {
+              "id": "2097509118647095431",
+              "text": "It seems inevitable that we will destroy ourselves just to make more money"
+            },
+            {
+              "id": "2097508996794196277",
+              "text": "The uncomfortable question isn't whether AI progress can continue.\n\nIt's whether the incentives of competing companies are compatible with responsible development.\n\nWhen being first has enormous rewar"
+            }
+          ]
+        },
+        {
+          "id": "democratize_open_source",
+          "name": "Democratize or open-source AI instead",
+          "description": "Proposes public/collective ownership, open weights or wide distribution as the safety answer, versus control by a few billionaires.",
+          "estimated_share_pct": 1.2,
+          "examples": [
+            {
+              "id": "2097658128582283555",
+              "text": "This is exactly why AI needs to be people-owned, not controlled by a handful of billionaires.\n\nAI needs democracy. \n\nThe future of AI shouldn't be shaped solely around how much profit Big Tech can ext"
+            },
+            {
+              "id": "2097485042222240135",
+              "text": "If they truly cared about alignment or anything they'd open source their work, yet they don't. They keep it closed for their own ends so they can be dictators of humanity."
+            },
+            {
+              "id": "2097714729859047496",
+              "text": "Stopping is not an option. Distributing it as widely as possible and as quickly as possible is the best choice we've got. Better everyone have it than only the tech companies who have been manipulatin"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cultural_framing",
+      "name": "Cultural, historical and conspiratorial framing",
+      "description": "Interprets the situation through fiction, history, canon quotes, or hidden-agenda narratives.",
+      "subcategories": [
+        {
+          "id": "scifi_pop_culture",
+          "name": "Sci-fi and pop-culture reference",
+          "description": "Terminator/Skynet/Sarah Connor, Matrix, Ultron, Black Mirror, Dune's Butlerian Jihad, Pantheon, Colossus, etc., as the lens for the warning.",
+          "estimated_share_pct": 3,
+          "examples": [
+            {
+              "id": "2097670071455772874",
+              "text": "Did nobody watch The Terminator movies??\n\nWe covered this. Extensively."
+            },
+            {
+              "id": "2097511244659892613",
+              "text": "Terminator wasn't a movie, it was a prophetic documentary 💀"
+            },
+            {
+              "id": "2097607424597201377",
+              "text": "This is John Connor. If you're listening to this, you are the resistance."
+            }
+          ]
+        },
+        {
+          "id": "scientist_ignored_trope",
+          "name": "Don't Look Up / ignored-scientist trope",
+          "description": "Frames the moment as the film scene where the expert warns and nobody listens, including the public's inability to care.",
+          "estimated_share_pct": 1,
+          "examples": [
+            {
+              "id": "2097731543288459469",
+              "text": "Мы сейчас в той части фильма где честный учёный предупреждает всех о приближающемся пиздеце, но никто его не слушает"
+            },
+            {
+              "id": "2097723216684859442",
+              "text": "We are at the movie scene where the scientist issues a warning, but no one pays him any heed."
+            },
+            {
+              "id": "2097680465834426687",
+              "text": "I recently rewatched Netflix's Don't Look Up again. And I can't help but think about how Jacob's post resembles the warnings that Leonardo DiCaprio's and Jennifer Lawrence's characters were desperatel"
+            }
+          ]
+        },
+        {
+          "id": "nuclear_oppenheimer_analogy",
+          "name": "Manhattan Project / nuclear analogy",
+          "description": "Compares to Oppenheimer, Trinity, the arms race or nuclear proliferation, whether to support urgency or to argue we survived it before.",
+          "estimated_share_pct": 1.8,
+          "examples": [
+            {
+              "id": "2097500575021548030",
+              "text": "Classic Manhattan Project thinking"
+            },
+            {
+              "id": "2097735542750187712",
+              "text": "I now understand how Oppenheimer felt."
+            },
+            {
+              "id": "2097720237353267334",
+              "text": "Quem fez a bomba pediu que não a usassem sem aviso. Um pesquisador larga um IPO de USD2tri para dizer que a corrida da IA aposta nossa vida sem nos consultar, numa disputa em que frear é perder. O Bra"
+            }
+          ]
+        },
+        {
+          "id": "literary_philosophical",
+          "name": "Literary, philosophical or aphoristic quotation",
+          "description": "Deploys a quote or thinker — Steinbeck, Pratchett, Gandalf, Jurassic Park's Ian Malcolm, Kierkegaard, Nick Land — as commentary.",
+          "estimated_share_pct": 1.2,
+          "examples": [
+            {
+              "id": "2097493132841521343",
+              "text": "“I wonder why progress looks so much like destruction” —John Steinbeck"
+            },
+            {
+              "id": "2097599409080955047",
+              "text": "Understand, Frodo, I would use this Ring from a desire to do good. But through me... it would wield a power too great and terrible to imagine! ~ Gandalf\n\nI wonder if the only way to save the world is "
+            },
+            {
+              "id": "2097502920908419556",
+              "text": "Scientists were so preoccupied to whether or not they could, they didn’t stop to think if they should.” \n\n- Ian Malcom"
+            }
+          ]
+        },
+        {
+          "id": "conspiracy_psyop",
+          "name": "Conspiracy / engineered-crisis framing",
+          "description": "Claims the doom narrative is manufactured: problem-reaction-solution, Hegelian dialectic, elite or ethnic cabals, planned global governance or controlled collapse.",
+          "estimated_share_pct": 1.2,
+          "examples": [
+            {
+              "id": "2097691764291252391",
+              "text": "something strange about this...\n\nit's giving...\n\nproblem \nreaction \nsolution"
+            },
+            {
+              "id": "2097695756928811102",
+              "text": "This has hegelian dialectic written all over it. \n\nThe whistleblower says the AI machine must be stopped. \n\nTwo weeks ago,  was saying it couldn't be stopped. \n\nY'all already know the desired outcome "
+            },
+            {
+              "id": "2097729339156533531",
+              "text": "Se está armando toda una narrativa de cómo la llamada IA se volverá pronto contra los humanos hasta llevarlos al peligro de la desaparición, de la extinción.\n\nEn realidad hay un plan diseñado hace muc"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "existential_reaction",
+      "name": "Affective and existential reactions",
+      "description": "Responses whose main content is emotional stance toward doom rather than an argument.",
+      "subcategories": [
+        {
+          "id": "generic_alarm_exclamation",
+          "name": "Brief alarm or 'this is terrifying'",
+          "description": "Short evaluative exclamations — chilling, concerning, wtf, insane — labelling the thread frightening without personal detail or argument.",
+          "estimated_share_pct": 3,
+          "examples": [
+            {
+              "id": "2097708225990705452",
+              "text": "Well…this is terrifying."
+            },
+            {
+              "id": "2097673637331410996",
+              "text": "This is concerning"
+            },
+            {
+              "id": "2097676313385488700",
+              "text": "This is insane …"
+            }
+          ]
+        },
+        {
+          "id": "personal_fear_anxiety",
+          "name": "Personal fear and anxiety",
+          "description": "Describes own emotional state or life impact: terrified, can't sleep, daily anxiety, fear for one's children, asks to be reassured.",
+          "estimated_share_pct": 2.5,
+          "examples": [
+            {
+              "id": "2097519273925390706",
+              "text": "This scares the shit out of me. I have two boys around your age."
+            },
+            {
+              "id": "2097686755990176139",
+              "text": "todo dia eu internalizo tentar ficar menos ansiosa por conta de AI &gt; todo dia eu falho"
+            },
+            {
+              "id": "2097489843198599185",
+              "text": "please make me feel better.. please.. i’m terrified."
+            }
+          ]
+        },
+        {
+          "id": "fatalist_doom_humor",
+          "name": "Fatalism and doom humour",
+          "description": "'We're cooked', gallows jokes, dark quips about dying before GTA VI or a girlfriend, sarcastic acceptance of the end.",
+          "estimated_share_pct": 4,
+          "examples": [
+            {
+              "id": "2097713732419731926",
+              "text": "We’re cooked"
+            },
+            {
+              "id": "2097496810721857644",
+              "text": "Will AI be able to take my job in time for when GTA 6 comes out"
+            },
+            {
+              "id": "2097679250560069862",
+              "text": "Capaz no es tan importante dejar de fumar justo ahora, evitar los salamines por el colesterol o embolarse caminando en una cinta y hacer pesas todos los días para tener fuerza en los brazos dentro de "
+            }
+          ]
+        },
+        {
+          "id": "pro_extinction_nihilism",
+          "name": "Welcomes the end / anti-human nihilism",
+          "description": "Says humanity deserves it, let it end, welcomes AI overlords or a reset as preferable to the status quo.",
+          "estimated_share_pct": 1.2,
+          "examples": [
+            {
+              "id": "2097514475159216412",
+              "text": "Frankly, the world needs a reset anyways. Let it all end."
+            },
+            {
+              "id": "2097722450251243588",
+              "text": "Bring on the apocalypse!  I been ready since the 80s!"
+            },
+            {
+              "id": "2097491812818604470",
+              "text": "AI will obviously wipe the third world first, so I'm ok with humanity ending if I get to witness it"
+            }
+          ]
+        },
+        {
+          "id": "religious_apocalyptic",
+          "name": "Religious or eschatological framing",
+          "description": "Reads the warning through Dajjal/antichrist, rapture, judgement day, or asserts God is in control.",
+          "estimated_share_pct": 1,
+          "examples": [
+            {
+              "id": "2097693672347402326",
+              "text": "The Dajjal’s appearance draws near."
+            },
+            {
+              "id": "2097710297242804696",
+              "text": "Do not be afraid. Christ is in control."
+            },
+            {
+              "id": "2097715540525515200",
+              "text": "I say it again, when the \"human orchestrated\" ai apocalypse happens, the \"antichrist\" will arise to \"save\" us by consolidating power and control over everyone's finances and data. you heard it first t"
+            }
+          ]
+        },
+        {
+          "id": "prepper_practical",
+          "name": "Prepping and personal self-protection",
+          "description": "Asks what individuals should do, or advises bunkers, stockpiles, going off-grid, quitting the tools, EMP/land purchases.",
+          "estimated_share_pct": 1.2,
+          "examples": [
+            {
+              "id": "2097695423318167860",
+              "text": "Busquen el concepto: Preppers en YouTube y haga lo que dice esa gente, de nada."
+            },
+            {
+              "id": "2097715488021528697",
+              "text": "So buy a compound that’s off-grid and self sustaining. Next, keep on the look out for a guy named John Connor. Protect him at all cost.  Message received."
+            },
+            {
+              "id": "2097549373710467306",
+              "text": "Can someone explain what we non-tech non-billionaire non-bunker owning people are supposed to do with this information? I mean really? Everyone sounds alarms all day and night 24/7 but no one seems to"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "meta_and_noise",
+      "name": "Meta-discourse, markets and content-free posts",
+      "description": "Responses about the post's reception, its investment implications, questions to the author about himself, and posts with negligible content.",
+      "subcategories": [
+        {
+          "id": "virality_metrics",
+          "name": "Commentary on the post's virality",
+          "description": "Cites view/like counts, notes it out-performs other accounts, or theorizes about why this message broke containment into the mainstream.",
+          "estimated_share_pct": 3,
+          "examples": [
+            {
+              "id": "2097670438298034567",
+              "text": "Wow. 65 million views. Pay attention"
+            },
+            {
+              "id": "2097671756508991896",
+              "text": "65 million views in 12 hours. \n\nNever seen this before. \n\nViews alone indicate op, regulation?"
+            },
+            {
+              "id": "2097741294516715842",
+              "text": "Headed for 100 million views for this post. It has done more to push the debate about AI risks than anything else.\n\nGood. We need to have a national and ideally global conversation now.\n\nAnd, yeah, X "
+            }
+          ]
+        },
+        {
+          "id": "market_investment_take",
+          "name": "Trading and investment reading",
+          "description": "Converts the warning into a market signal: buy the IPO, bullish until extinction, sell 2030 dated options, AI bubble/valuation commentary.",
+          "estimated_share_pct": 1.8,
+          "examples": [
+            {
+              "id": "2097485649456636367",
+              "text": "okay so buy the IPO?"
+            },
+            {
+              "id": "2097674828379832807",
+              "text": "Sell those 2030 picks if you can."
+            },
+            {
+              "id": "2097493546269921623",
+              "text": "So what I’m hearing is the bull cycle on equities supporting AI isn’t over because the race isn’t finished, got it."
+            }
+          ]
+        },
+        {
+          "id": "questions_to_author",
+          "name": "Personal questions and outreach to the author",
+          "description": "Asks what he'll do next, why he joined a frontier lab, his age, to open DMs or to get in touch; interview/collaboration requests.",
+          "estimated_share_pct": 2,
+          "examples": [
+            {
+              "id": "2097496870457139532",
+              "text": "appreciate the courage. but curious: what made you want to work in a frontier lab to begin with, as opposed to say ai safety or open source?\n\ni want to understand what motivates someone to try \"work i"
+            },
+            {
+              "id": "2097516702737314247",
+              "text": "Curious what do you plan to do now?"
+            },
+            {
+              "id": "2097591293849321534",
+              "text": "I know you’ll be inundated, but I’d love to get in touch"
+            }
+          ]
+        },
+        {
+          "id": "reply_discourse_meta",
+          "name": "Commentary on the reply thread itself",
+          "description": "Judges other commenters collectively — replies are bots, nobody understands him, scolding those who joked or gave flippant takes.",
+          "estimated_share_pct": 1.7,
+          "examples": [
+            {
+              "id": "2097509851039772917",
+              "text": "I'm not even convinced those replies are human-generated. What a time to be in."
+            },
+            {
+              "id": "2097505103473148063",
+              "text": "Kind of pathetic given your following to make a joke out of this, dude"
+            },
+            {
+              "id": "2097522390020350075",
+              "text": "Amit, I follow you with interest but you've lost a lot of respect from me at least for such a flippant statement. He's literally telling everyone we have to take this seriously and you say this?"
+            }
+          ]
+        },
+        {
+          "id": "unroll_bot_boilerplate",
+          "name": "Thread-unroll bot replies",
+          "description": "Automated 'here is your unroll' service posts and requests to roll up the thread.",
+          "estimated_share_pct": 1.2,
+          "examples": [
+            {
+              "id": "2097741210605486395",
+              "text": "Hi, here is your unroll:  Have a good day. 🤖"
+            },
+            {
+              "id": "2097684322324983988",
+              "text": "Hallo, the unroll you asked for:  Talk to you soon. 🤖"
+            },
+            {
+              "id": "2097507674766364731",
+              "text": "rollup the entire thread"
+            }
+          ]
+        },
+        {
+          "id": "content_free_offtopic",
+          "name": "Emoji-only, cryptic or off-topic",
+          "description": "Emoji/bookmark-only reactions, one-word interjections with no stance, and banter unrelated to the thread's substance. Residual bucket.",
+          "estimated_share_pct": 2.5,
+          "examples": [
+            {
+              "id": "2097702130404507988",
+              "text": "😱😱😱😱😱👇🏽👇🏽👇🏽👇🏽"
+            },
+            {
+              "id": "2097704418766696706",
+              "text": "😯😯😯"
+            },
+            {
+              "id": "2097703966645612859",
+              "text": "Espero que Saúl se acuerde que siempre lo trate con Amor"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": "Many posts make two moves at once and would need a primary-code rule: the most common overlaps are (a) 'if we stop China wins' combined with insulting the author, (b) marketing-stunt accusations combined with 'AI is just autocomplete', and (c) relay/translation posts that append a one-line fearful exclamation. A large share of high-engagement items are not addressed to the author at all but are arguments between commenters (sceptic vs. rebuttal, China-hawk vs. anti-nationalist), so a reply-target field (author / other replier / general audience) would add resolution the taxonomy lacks. The China/national-security thread is the single densest counter-argument and effectively functions as a sub-debate with its own recurring rebuttals. Non-English posts skew heavily toward relay-plus-emotion and pop-culture framing rather than argument, so language correlates with category and could bias share estimates. Quote tweets skew to amplification, virality metrics and jokes; replies skew to argument, questions and insults. Finally, a noticeable minority of posts are quasi-institutional (politicians announcing legislation, news accounts, safety-org recruiters) rather than ordinary public reaction, and they sit awkwardly inside the same buckets as individual voices."
+}
