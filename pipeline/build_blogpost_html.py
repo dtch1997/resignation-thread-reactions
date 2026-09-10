@@ -181,9 +181,6 @@ footer.page {{ margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--
 <main>
 <div class="eyebrow">X reaction study · {n:,} posts</div>
 <h1>What 17,000 people said to the researcher who quit Anthropic</h1>
-<p class="lede">A taxonomy of the reaction to the most-read AI post of the year, from four broad moves down to the individual tweets.</p>
-
-<p>On 9 September a pretraining researcher posted that he had resigned from Anthropic because neither it nor OpenAI was acting responsibly. Within a day the post had 100 million impressions, 13,000 replies and 28,000 quote tweets. I wanted to know what that reaction consisted of, so I pulled every visible reply and quote tweet through the X API and had a language model sort them.</p>
 
 <figure class="figure">{svg}</figure>
 <figcaption>Share of {n:,} visible replies and quote tweets, spam excluded. Inner ring: ten categories. Outer ring: 48 response types. Colour: the four moves below.</figcaption>

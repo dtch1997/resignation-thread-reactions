@@ -136,7 +136,6 @@ def main() -> None:
     out = []
     out.append(f"""# What 17,000 people said to the researcher who quit Anthropic
 
-On 9 September a pretraining researcher posted that he had resigned from Anthropic because neither it nor OpenAI was acting responsibly. Within a day the post had 100 million impressions, 13,000 replies and 28,000 quote tweets. I wanted to know what that reaction consisted of, so I pulled every visible reply and quote tweet through the X API and had a language model sort them.
 
 ![Two-ring donut of response categories](figures/taxonomy_sunburst.png)
 
