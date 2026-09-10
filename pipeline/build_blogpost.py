@@ -166,9 +166,6 @@ On 9 September a pretraining researcher posted that he had resigned from Anthrop
 </details>
 """)
     out.append("""
----
-
-*Data: X API v2, collected 2026-09-09. Labels: Claude Opus 5 with a bottom-up taxonomy; one pass, spot-checked, no human validation set. Reply coverage is the visible thread only; hidden replies are likely more hostile than what is shown. Code and data: jarvis-os/experiments/x-conversation-sentiment.*
 """)
     OUT.write_text("".join(out))
     words = len(OUT.read_text().split())
