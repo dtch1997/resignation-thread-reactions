@@ -1,4 +1,4 @@
-# What 17,000 people said to the researcher who quit Anthropic
+# Taxonomizing ~17k responses to Jacob Coxon's viral tweet on quitting Anthropic
 
 A taxonomy of the public reaction to
 [the 2026-09-09 resignation thread](https://x.com/hilbertspaess/status/2097476196791709843),

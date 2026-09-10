@@ -102,7 +102,7 @@ def main() -> None:
 {"".join(cat_html)}
 </section>''')
 
-    page = f"""<title>What 17,000 People Said</title>
+    page = f"""<title>Taxonomizing ~17k responses to Jacob Coxon&#39;s viral tweet on quitting Anthropic</title>
 <meta name="description" content="A taxonomy of the reaction to the 'I resigned from Anthropic' post, down to example tweets">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=JetBrains+Mono:wght@400;500&display=swap">
@@ -180,7 +180,7 @@ footer.page {{ margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--
 </style>
 <main>
 <div class="eyebrow">X reaction study · {n:,} posts</div>
-<h1>What 17,000 people said to the researcher who quit Anthropic</h1>
+<h1>Taxonomizing ~17k responses to Jacob Coxon&#39;s viral tweet on quitting Anthropic</h1>
 
 <figure class="figure">{svg}</figure>
 <figcaption>Share of {n:,} visible replies and quote tweets, spam excluded. Inner ring: ten categories. Outer ring: 48 response types. Colour: the four moves below.</figcaption>

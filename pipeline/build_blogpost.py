@@ -134,7 +134,7 @@ def main() -> None:
         return f"{100 * x / n:.1f}%"
 
     out = []
-    out.append(f"""# What 17,000 people said to the researcher who quit Anthropic
+    out.append(f"""# Taxonomizing ~17k responses to Jacob Coxon's viral tweet on quitting Anthropic
 
 
 ![Two-ring donut of response categories](figures/taxonomy_sunburst.png)
