@@ -1,0 +1,241 @@
+<title>Replies to a Resignation</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+:root {
+  color-scheme: light;
+  --paper: #f5f6f8; --paper-2: #eceef2; --ink: #171c24; --ink-2: #5a6472; --ink-3: #8b94a0;
+  --rule: #d5d9e0; --accent: #2f4f9e; --draft: #b45309; --draft-bg: #fdf3e3;
+  --c-agree: #2a78d6; --c-mixed: #8a8984; --c-disagree: #e34948; --c-none: #dedfe3;
+  --c-move: #2a78d6; --c-cat: #9ec5f4;
+  --g1: #eb6834; --g2: #2a78d6; --g3: #1baf7a; --g4: #b5b9c2;
+  --font-body: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --font-ui: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --paper: #15181d; --paper-2: #1d2128; --ink: #e8eaee; --ink-2: #aab2bd; --ink-3: #7d8691;
+    --rule: #2f353e; --accent: #8fa8ee; --draft: #f0b35a; --draft-bg: #2a2114;
+    --c-agree: #3987e5; --c-mixed: #8f8e88; --c-disagree: #e66767; --c-none: #33363c;
+    --c-move: #3987e5; --c-cat: #2a5a8f;
+    --g1: #d95926; --g2: #3987e5; --g3: #199e70; --g4: #4a4f58;
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --paper: #15181d; --paper-2: #1d2128; --ink: #e8eaee; --ink-2: #aab2bd; --ink-3: #7d8691;
+  --rule: #2f353e; --accent: #8fa8ee; --draft: #f0b35a; --draft-bg: #2a2114;
+  --c-agree: #3987e5; --c-mixed: #8f8e88; --c-disagree: #e66767; --c-none: #33363c;
+  --c-move: #3987e5; --c-cat: #2a5a8f;
+  --g1: #d95926; --g2: #3987e5; --g3: #199e70; --g4: #4a4f58;
+}
+body { background: var(--paper); color: var(--ink); font-family: var(--font-body); font-size: 18px; line-height: 1.55; margin: 0; }
+main { max-width: 42rem; margin: 0 auto; padding: 2.5rem 1.25rem 5rem; }
+h1, h2, h3 { font-family: var(--font-body); font-weight: 600; line-height: 1.2; text-wrap: balance; margin: 0; }
+h1 { font-size: 2rem; margin-bottom: .5rem; }
+h2 { font-size: 1.45rem; margin: 3rem 0 1rem; padding-top: 1.25rem; border-top: 1px solid var(--rule); }
+h3 { font-size: 1.1rem; margin: 2rem 0 .6rem; }
+p { margin: 0 0 1.1rem; }
+a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 2px; }
+a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.byline { font-family: var(--font-ui); font-size: .85rem; color: var(--ink-2); margin-bottom: 2rem; }
+.draft { font-family: var(--font-ui); font-size: .82rem; color: var(--draft); background: var(--draft-bg); border-left: 3px solid var(--draft); padding: .6rem .9rem; margin: 0 0 2rem; }
+.note { font-family: var(--font-ui); font-size: .85rem; color: var(--draft); background: var(--draft-bg); padding: .35rem .6rem; border-radius: 3px; display: inline; }
+.summary { border-left: 3px solid var(--accent); padding: .1rem 0 .1rem 1.1rem; margin: 0 0 2rem; }
+.summary p { margin-bottom: .6rem; }
+.summary p:last-child { margin-bottom: 0; }
+table { border-collapse: collapse; font-family: var(--font-ui); font-size: .9rem; margin: 1.25rem 0 1.5rem; width: 100%; font-variant-numeric: tabular-nums; }
+th, td { text-align: left; padding: .45rem .6rem; border-bottom: 1px solid var(--rule); vertical-align: top; }
+th { font-weight: 600; color: var(--ink-2); font-size: .8rem; text-transform: uppercase; letter-spacing: .04em; }
+td.n, th.n { text-align: right; }
+.tbl { overflow-x: auto; }
+figure.chart { margin: 1.5rem 0 2rem; }
+figure.chart svg { width: 100%; height: auto; display: block; }
+figure.chart figcaption, figure.post figcaption { font-family: var(--font-ui); font-size: .82rem; color: var(--ink-2); margin-top: .6rem; line-height: 1.45; }
+figure.post { margin: 1.25rem 0 1.5rem; padding: .85rem 1rem .7rem; background: var(--paper-2); border-radius: 4px; }
+figure.post blockquote { margin: 0; font-size: 1rem; line-height: 1.5; }
+figure.post blockquote p { margin: 0 0 .5rem; }
+figure.post blockquote p:last-child { margin: 0; }
+figure.post .trans { font-family: var(--font-ui); font-size: .9rem; color: var(--ink-2); margin: .5rem 0 0; }
+figure.post figcaption { display: flex; flex-wrap: wrap; gap: .25rem .9rem; margin-top: .55rem; }
+figure.post figcaption a { font-weight: 500; }
+.posts2 { display: grid; grid-template-columns: 1fr; gap: 0; }
+ul, ol { padding-left: 1.4rem; margin: 0 0 1.1rem; }
+li { margin-bottom: .45rem; }
+.kicker { font-family: var(--font-ui); font-size: .78rem; text-transform: uppercase; letter-spacing: .06em; color: var(--ink-3); margin-bottom: .5rem; }
+.method p { font-size: .95rem; color: var(--ink-2); }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+
+<main>
+<p class="draft"><strong>Draft for LessWrong.</strong> Bracketed <span class="note">[DT: …]</span> notes are editorial to-dos, not part of the post. Numbers come from <code>blogpost/stats.json</code>; every quoted post links to its original.</p>
+
+<p class="kicker">X reaction study · 17,541 posts</p>
+<h1>How 17,541 people replied to Jacob Coxon's resignation</h1>
+<p class="byline">Daniel Tan · September 2026 · companion to the <a href="https://dtch1997.github.io/resignation-thread-reactions/">full response taxonomy</a></p>
+
+<div class="summary">
+<p><strong>Summary.</strong> On 9 September, Anthropic pretraining researcher Jacob Coxon <a href="https://x.com/hilbertspaess/status/2097476196791709843">announced on X that he had resigned</a>, saying that neither Anthropic nor OpenAI is acting responsibly and that a self-improving superintelligence could kill everyone by the end of the decade. The post reached over 90 million impressions within a day. I pulled every visible reply and quote tweet, had Claude label each one, and read a lot of them.</p>
+<p>Three things stood out. First, the public was receptive: among posts that take a position on his claim, three in four agree, and the split is the same for small accounts as for large ones. Second, reception was emotional rather than argued. Only a fifth of posts engage with the substance at all; the three most common single responses are "this is terrifying", "we're cooked", and a Terminator reference. Third, the objections that do appear mostly attack the messenger rather than the claim. "Marketing stunt for the IPO" is the single most common objection, and attacks on Coxon's motives outnumber denials of the risk, which in turn outnumber "China will do it anyway".</p>
+</div>
+
+<h2>Why I looked</h2>
+<p>Coxon's thread is a seven-post argument that the frontier labs are racing toward recursive self-improvement without a plan for alignment, that the people inside them privately expect it to go badly, and that he could no longer be part of it. It is not a new argument. What was new was the audience: the post broke out of the AI corner of X and into cricket accounts, Bernie Sanders, Turkish news, and people asking what to tell their children. <span class="note">[DT: you have ~160M views as of 11 Sep; the fetch captured 93M on the 9th. Screenshot the current count and cite it, and drop or soften the "biggest AI safety media event" framing unless we can name a comparator.]</span></p>
+<p>The AI safety community spends a lot of effort guessing how the public would react to a credible insider warning. This was the largest natural experiment so far, so I wanted to actually measure it rather than scroll and vibe.</p>
+
+<h2>What I collected</h2>
+<p>I downloaded the conversation through the X API on 9 and 10 September. X reports far more replies than it will show: it exposed 5,034 of 12,261 replies and 14,147 of 26,388 quote tweets. The rest are hidden as low quality, from restricted accounts, or simply not returned by search. After removing spam, 17,541 posts remained: 4,497 replies and 13,044 quote tweets. Hidden replies are almost certainly more hostile than what is visible, so treat every "receptive" number below as an upper bound on the reply side.</p>
+
+<div class="tbl"><table>
+<thead><tr><th>Root post at fetch time (9 Sep, 17:00 UTC)</th><th class="n">Count</th></tr></thead>
+<tbody>
+<tr><td>Impressions</td><td class="n">93,190,034</td></tr>
+<tr><td>Likes</td><td class="n">552,656</td></tr>
+<tr><td>Bookmarks</td><td class="n">201,843</td></tr>
+<tr><td>Retweets</td><td class="n">107,830</td></tr>
+<tr><td>Quote tweets reported / exposed / kept after spam filter</td><td class="n">26,388 / 14,147 / 13,044</td></tr>
+<tr><td>Replies reported / exposed / kept after spam filter</td><td class="n">12,261 / 5,034 / 4,497</td></tr>
+</tbody></table></div>
+
+<p>These are mostly ordinary people. The median author has 479 followers; 63% of posts come from accounts under 1,000 followers and 89% from accounts under 10,000. Three in five posts are in English, then Spanish (10%), Portuguese, French, Arabic, Japanese, and Turkish at 3–4% each. When I say "the public" below, this is who I mean.</p>
+
+<p>Claude Opus 5 labelled every post twice. One pass recorded a stance toward the claim (agree, disagree, mixed, or not addressed). A second pass induced a taxonomy of 48 response types from a stratified sample of 1,300 posts, then assigned every post to one type. The full tree, with three examples per type, is on the <a href="https://dtch1997.github.io/resignation-thread-reactions/">taxonomy page</a>. Method details and caveats are at the end.</p>
+
+<h2>Most people who took a side took his</h2>
+<p>A third of posts take no position on whether the labs are racing irresponsibly; they relay the thread, joke, or talk about something else. Of the rest, agreement dominates. But the venue matters a lot. Quote tweets, which go to the quoter's own followers, run four to one in favour. Replies, which sit under the post where the hostile audience gathers, are an even split.</p>
+
+<figure class="chart">
+{{fig:stance}}
+<figcaption>Stance toward the claim by venue and account size. Percentages within each row; "mixed" means the post both credits and disputes the claim. Replies are the hostile venue and also the one X hides most of.</figcaption>
+</figure>
+
+<p>The small-account rows are the point of the exercise. People with under 1,000 followers are not the AI-risk in-group, and their split matches everyone else's almost exactly. Here is what agreement from that crowd reads like when it comes with an argument:</p>
+
+{{q:_normie_agree_replies:syncshiftstudio}}
+{{q:_normie_agree_replies:eswambui}}
+
+<p>Both of these pick out the same thing: not the extinction number, but the revealed preference of people who privately expect disaster and keep building. That reading showed up again and again in the reasoned-agreement posts, and it is the part of Coxon's thread that travelled furthest outside the community.</p>
+
+<p>Receptive did not mean passive. The most-liked policy response came from a senator, and elected officials account for several of the top-liked posts in the whole dataset:</p>
+
+{{q:regulation_ban_calls:BernieSanders}}
+{{q:regulation_ban_calls:RepCasar}}
+
+<p>And a sizeable group of people asked, sincerely, the question the thread does not answer:</p>
+
+{{q:asks_for_mechanism:LiLBilly___}}
+{{q:asks_for_mechanism:TheIngated}}
+
+<p>These are not gotchas. The first one has 1,863 likes from an account with 211 followers, which tells you how many readers wanted the same thing. The best replies to it were written by other commenters, not by anyone from the field:</p>
+
+{{q:supplies_scenario:TheOthe87166293}}
+
+<h2>But mostly people reacted, they did not argue</h2>
+<p>Agreeing is not the same as engaging. When I sort every post into what it is doing rather than which side it is on, the picture changes. Fewer than a quarter of posts engage with the substance of the claim at all, whether to support, deny, or complicate it. A third express a reaction. A quarter are about Coxon himself, mostly amplifying or praising him. The remaining fifth is emoji, bookmarks, unroll bots, and commentary on the view count.</p>
+
+<figure class="chart">
+{{fig:moves}}
+<figcaption>Share of posts (bars) and share of likes (right column) by category, grouped into four moves. Substantive posts are 22% of what was written but 34% of what was liked; policy posts in particular punch far above their count.</figcaption>
+</figure>
+
+<p>The three largest single response types across all 48 are, in order: a one-line alarm ("this is terrifying", 1,531 posts), doom humour ("we're cooked", 1,472), and a science-fiction reference (1,002). Together they outnumber every substantive category combined.</p>
+
+{{q:generic_alarm_exclamation:harryjsisson}}
+{{q:fatalist_doom_humor:priyankac19}}
+{{q:fatalist_doom_humor:FarziCricketer}}
+{{q:scifi_pop_culture:SamMonsonNFL}}
+
+<p>The doom humour deserves a closer look because it is not dismissal. "Four more seasons of IPL", "will AI take my job before GTA 6", "Bristol City will still be in the Championship": these posts accept the premise and cope with it. They are what taking an extinction warning seriously looks like for someone with no way to act on it. The personal-fear posts, a smaller group, say the same thing without the joke:</p>
+
+{{q:personal_fear_anxiety:commons96055467}}
+{{q:personal_fear_anxiety:MattLaemon}}
+
+<p>One consequence: the likes column in the chart above is worth more attention than the post counts. People wrote jokes and wrote "scary", but they liked the substantive posts and the calls for regulation. Substantive debate is 5.6% of posts and 9.2% of likes; policy is 4.9% of posts and 11.9% of likes; doom humour goes the other way. The audience rewarded more argument than it produced.</p>
+
+<h2>What the objectors said</h2>
+<p>About a fifth of posts push back in some way. I counted every response type that attacks Coxon, denies or deflates the risk, argues the race cannot or should not stop, or criticises resigning as a tactic. Here they are, ranked.</p>
+
+<figure class="chart">
+{{fig:objections}}
+<figcaption>Objections ranked by post count, 3,627 posts in total (21% of the dataset). Colour marks whether the objection targets the messenger, the risk claim itself, or the possibility of stopping. "Other" collects the capitalism critique, conspiracy framing, and critiques of resigning.</figcaption>
+</figure>
+
+<p>The shape is the finding. The four messenger attacks together (marketing stunt, fake account, bare insult, hypocrisy) make up 1,222 posts. The five denials of the risk make up 996. The race arguments make up 669 once you exclude the posts rebutting them. Most objection is about who is speaking, not what was said.</p>
+
+<h3>1. It's marketing for the IPO</h3>
+<p>The single most common objection, and the most-liked reply in this group. The argument is that a scary resignation from a lab about to go public is too convenient to be sincere, and that both labs have used sci-fi horror imagery for press before.</p>
+{{q:marketing_ipo_stunt:LazyChillZone}}
+{{q:marketing_ipo_stunt:mogaino}}
+{{q:marketing_ipo_stunt:PhilipProudfoot}}
+<p>Worth noticing: this objection is often paired with "AI is just autocomplete" in the same post. The two are in tension (a stunt to hype a tool that cannot do anything?) but the combination was common enough that the taxonomy notes flagged it.</p>
+
+<h3>2. It's a doomer cult</h3>
+<p>The sociological diagnosis: this belief is a subculture with its own incentives, and Coxon caught it. The most-liked versions came from e/acc accounts, but the ordinary form is a one-liner.</p>
+{{q:doomer_cult_label:perrymetzger}}
+{{q:doomer_cult_label:dylanmallman}}
+
+<h3>3. The account is fake</h3>
+<p>Coxon joined X in January, posted nothing, then posted this. A brand-new account with half a million likes in twelve hours looked like a bot or a campaign to many people, and the prose read as AI-written to some.</p>
+{{q:bot_fake_clout:shelley_alt}}
+{{q:bot_fake_clout:uubzu}}
+<p>This objection died fastest. Once news outlets confirmed his employment, quote tweets began citing that confirmation as the reason to take him seriously. The account-age question is a real lesson for anyone planning to speak out: have a history, or expect the first day to be spent on it.</p>
+
+<h3>4. Bare insult</h3>
+<p>Three hundred posts with no argument at all. Age, appearance, the cap, "go get a girlfriend". I will not quote the worst; the mild version:</p>
+{{q:personal_insult:AllStreetsWolf}}
+
+<h3>5. It's just a token predictor</h3>
+<p>The most-liked single objection in the whole dataset, at 6,914 likes from an account with 726 followers. The argument denies the capability premise outright: a language model is a party trick, a glorified search engine, and cannot do anything on its own.</p>
+{{q:not_real_intelligence:loadingalias}}
+{{q:not_real_intelligence:Marketwizard69}}
+<p>Note the second one. "It made mistakes on my balance sheet today" was a recurring form: the reader's own experience of a model failing at a mundane task, offered as evidence against the trend.</p>
+
+<h3>6. Capitalism makes stopping impossible</h3>
+<p>I list this among the objections, but it is really agreement with a shrug. These posts accept the risk and locate the cause in profit motive, then conclude that nothing will change.</p>
+{{q:capitalism_incentive_critique:pukka__}}
+{{q:capitalism_incentive_critique:anandsh04294243}}
+
+<h3>7. If we stop, China wins</h3>
+<p>The national-security argument was the densest single debate in the thread, and the one place where the comments argued with each other rather than with Coxon. The canonical statement:</p>
+{{q:china_must_win:timschuster}}
+{{q:china_must_win:AbeBurnett}}
+<p>And its rebuttals, which got more likes than the original:</p>
+{{q:rejects_race_framing:copernicvs}}
+{{q:rejects_race_framing:KweenInYellow}}
+<p>Two hundred and sixty-seven posts make the China argument; 165 reject it. The rebuttals split between "superintelligence respects no flag", "the US is not a trustworthy steward either", and, from a surprising number of people, an explicit preference for China winning. The race framing did not go unanswered, and the answers did not come from the safety community.</p>
+
+<h3>8. You took the money</h3>
+<p>Three years of salary and vested equity, and the warning comes after. The finance-Twitter version got the most likes:</p>
+{{q:hypocrisy_profit:ParikPatelCFA}}
+{{q:hypocrisy_profit:strike_dr}}
+
+<h3>9. Can't be stopped anyway</h3>
+<p>Fatalism without the geopolitics: the genie is out, someone will build it, it is too late. Like the capitalism critique, this mostly comes from people who believe him.</p>
+{{q:inevitability_genie:CachetMarie}}
+
+<h3>10. It's a psyop</h3>
+<p>Problem-reaction-solution, Hegelian dialectic, a manufactured crisis to justify control. A minority of these posts are antisemitic; I have not quoted them. The common version:</p>
+{{q:conspiracy_psyop:reallygraceful}}
+
+<h3>Further down the list</h3>
+<p>The accelerationist reply (167 posts) argues the upside is worth the gamble, sometimes movingly: "if my mother is the last person to die of old age, I will be mad on geologic time scales." "Just unplug it" (160) got its best rebuttal from Grok, of all accounts, which explained that agents run on servers people own and can be isolated. The demand for a falsifiable prediction (120) is the most intellectually serious objection and the one Coxon's thread is weakest against, since it gives a date but no mechanism:</p>
+{{q:demand_falsifiable_evidence:_4lex_4}}
+<p>And the critiques of resigning as a tactic (272 posts across three types) all say a version of the same thing: if you believed this, you would have stayed and fought, or done something bigger than a thread.</p>
+{{q:demand_bolder_action:boneGPT}}
+{{q:should_have_stayed:mikebelshe}}
+
+<h2>What I take from this</h2>
+<p><strong>The public is not the obstacle.</strong> Among people who engaged with the claim, most accepted it, and the ones who did not mostly argued about Coxon rather than about AI. The classic counterarguments the community rehearses (China, unplug it, it's autocomplete) are all present but none is dominant, and the China argument was rebutted in place by ordinary commenters.</p>
+<p><strong>Acceptance came as fear, not as a plan.</strong> The modal response was "this is terrifying" or a joke about it. The people who wanted to do something split between calling for a ban and asking what to stockpile. Almost nobody asked what an individual could usefully do, because there was no answer on offer. <span class="note">[DT: this is the place for a positive ask if you want one.]</span></p>
+<p><strong>The question people actually asked was "how".</strong> The sincere request for a mechanism was one of the most-liked replies in the thread, and the answers came from other laypeople. A short, concrete, non-technical account of how a loss-of-control scenario unfolds would have had a large audience that day. The community has written many of these; none of them were in the replies.</p>
+<p><strong>Messenger attacks are the cost of a new account.</strong> Roughly a third of all objections were about whether Coxon was real, paid, or a hypocrite. Most of that was avoidable with an account history and an early third-party confirmation. Anyone planning a similar disclosure should plan for the first day to be about them.</p>
+<p><strong>Substance was rewarded.</strong> Posts that argued got a larger share of likes than posts that reacted, across both sides. Whatever the median post looks like, the median reader wanted more argument than they got.</p>
+
+<h2 class="method">Method and caveats</h2>
+<div class="method">
+<p><strong>Collection.</strong> X API v2, 9–10 September 2026. Replies from four query styles unioned on post id (conversation search, in-reply-to search, to:user search, full-archive conversation search); quote tweets from the quote-tweets endpoint with retweets excluded. Posts flagged as spam by the labeller are dropped. Coverage is the visible thread only.</p>
+<p><strong>Labelling.</strong> Claude Opus 5 through the Batches API, with Coxon's full thread in the system prompt. Stance labels: one pass per post with a fixed schema. Taxonomy: induced by Opus from a 1,300-post sample stratified by venue with the most-liked posts oversampled, then one assignment pass over all 17,541 posts. One labelling pass, spot-checked by me, no human validation set. Confidence-weighted spot checks suggest the category-level shares are stable to a few points; the 48-type shares less so.</p>
+<p><strong>Known biases.</strong> Hidden replies (61% of those reported) are likely more hostile. Non-English posts skew toward relay-plus-emotion and away from argument, so language correlates with category. Quote tweets skew to amplification and jokes; replies to argument and insult. Many posts make two moves at once and got one label. A "normie" here means an account with under 1,000 followers, which is a proxy, not a measurement.</p>
+<p><strong>Reproduce.</strong> Code, taxonomy, counts, and figures: <a href="https://github.com/dtch1997/resignation-thread-reactions">github.com/dtch1997/resignation-thread-reactions</a>. The post-level data and labels are held privately; the page quotes public posts with links to the originals.</p>
+</div>
+</main>
