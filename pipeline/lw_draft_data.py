@@ -29,6 +29,20 @@ for t in T:
     t["likes"] = int(t["likes"]); t["confidence"] = float(t["confidence"])
     p = P[t["id"]]; t["followers"] = p.get("followers"); t["lang"] = p.get("lang")
     t["stance"] = L[t["id"]]["stance_claim"]; t["full"] = p.get("full_text") or p.get("text")
+# ---- bot screen: drop posts from dedicated bot / AI-content accounts ---------------
+BOT_CUT, QUOTE_CUT = 0.7, 0.3
+BOT = {}
+if (DATA / "bot_accounts.jsonl").exists():
+    for r in rows("bot_accounts.jsonl"):
+        if "p_bot" in r: BOT[r["author_id"]] = r
+T_all = T
+bot_ids = {a for a, r in BOT.items() if r["p_bot"] >= BOT_CUT}
+T = [t for t in T_all if P[t["id"]]["author_id"] not in bot_ids]
+bot_stats = {"accounts_screened": len(BOT), "accounts_flagged": len(bot_ids),
+             "posts_removed": len(T_all) - len(T), "posts_before": len(T_all),
+             "flagged_by_kind": dict(collections.Counter(r["kind"] for a, r in BOT.items() if a in bot_ids)),
+             "removed_by_category": dict(collections.Counter(t["cat"] for t in T_all if P[t["id"]]["author_id"] in bot_ids).most_common()),
+             "removed_top_subtypes": collections.Counter(t["sub_name"] for t in T_all if P[t["id"]]["author_id"] in bot_ids).most_common(8)}
 ids = [t["id"] for t in T]
 
 def stance_split(sub):
@@ -82,6 +96,7 @@ stats = {
     "objections": obj, "objections_total": sum(o["n"] for o in obj),
     "addressed_to": collections.Counter(t["addressed_to"] for t in T).most_common(),
     "substance_share": round(100 * sum(cat_n[c] for c in MOVES[2][1]) / N, 1),
+    "bot_screen": bot_stats,
 }
 (OUT / "stats.json").write_text(json.dumps(stats, indent=1))
 
@@ -90,19 +105,21 @@ random.seed(7)
 def cands(sub, k=4, kind=None, only_normie=False, stance_=None):
     pool = [t for t in T if t["sub"] == sub and t["confidence"] >= 0.8 and (kind is None or t["kind"] == kind)
             and (not only_normie or normie(t)) and (stance_ is None or t["stance"] == stance_)]
-    pool = [t for t in pool if t["lang"] == "en" or t["id"] in TR]
+    pool = [t for t in pool if (t["lang"] == "en" or t["id"] in TR) and BOT.get(P[t["id"]]["author_id"], {}).get("p_bot", 0) < QUOTE_CUT]
     top = sorted(pool, key=lambda t: -t["likes"])[:k]
     rest = [t for t in pool if t not in top and 40 < len(t["full"]) < 400]
     rnd = random.sample(rest, min(2, len(rest)))
     return [{"id": t["id"], "user": t["username"], "kind": t["kind"], "likes": t["likes"], "followers": t["followers"], "lang": t["lang"],
-             "text": t["full"], "translation": TR.get(t["id"]), "url": t["url"]} for t in top + rnd]
-WANT = ["generic_alarm_exclamation", "fatalist_doom_humor", "scifi_pop_culture", "must_read_relay", "substantive_agreement", "praise_support_author",
+             "text": t["full"], "translation": TR.get(t["id"]), "url": t["url"],
+             "p_bot": BOT.get(P[t["id"]]["author_id"], {}).get("p_bot")} for t in top + rnd]
+WANT = ["rebuts_skeptics", "generic_alarm_exclamation", "fatalist_doom_humor", "scifi_pop_culture", "must_read_relay", "substantive_agreement", "praise_support_author",
         "personal_fear_anxiety", "regulation_ban_calls", "asks_for_mechanism", "supplies_scenario", "prepper_practical", "virality_metrics",
         "marketing_ipo_stunt", "doomer_cult_label", "bot_fake_clout", "personal_insult", "not_real_intelligence", "capitalism_incentive_critique",
         "china_must_win", "rejects_race_framing", "hypocrisy_profit", "inevitability_genie", "conspiracy_psyop", "accelerationist_upside",
         "just_unplug_it", "demand_falsifiable_evidence", "should_have_stayed", "demand_bolder_action", "prior_tech_panic_analogy"]
 ex = {s: cands(s) for s in WANT}
-ex["_normie_agree_replies"] = cands("substantive_agreement", k=4, kind="reply", only_normie=True) + cands("praise_support_author", k=3, kind="reply", only_normie=True)
+ex["_normie_agree_replies"] = cands("substantive_agreement", k=8, kind="reply", only_normie=True) + cands("praise_support_author", k=3, kind="reply", only_normie=True)
+ex["_normie_agree_quotes"] = cands("substantive_agreement", k=8, kind="quote", only_normie=True)
 (OUT / "examples.json").write_text(json.dumps(ex, indent=1, ensure_ascii=False))
 
 # ---- figures (inline-SVG, colors via CSS custom properties of the host page) ----
@@ -163,6 +180,7 @@ def svg_objections():
     o.append("</svg>"); return "\n".join(o)
 
 (OUT / "fig_stance.svg").write_text(svg_stance()); (OUT / "fig_moves.svg").write_text(svg_moves()); (OUT / "fig_objections.svg").write_text(svg_objections())
+print("BOT SCREEN", json.dumps(bot_stats))
 print(json.dumps({k: v for k, v in stats.items() if k in ("root_metrics", "fetched_at", "n_posts", "n_reply", "n_quote", "followers", "langs", "substance_share", "objections_total")}, indent=1))
 for k, v in stance.items(): print(f'{k:50s} agree {v["pct"]["agree"]:5.1f} mixed {v["pct"]["mixed"]:5.1f} disagree {v["pct"]["disagree"]:5.1f} none {v["pct"]["not_addressed"]:5.1f}  n={v["n"]}  agree/(a+d)={v["agree_pct_of_ad"]}')
 for m in stats["moves"]: print(m["move"], m["pct"], "likes", m["likes_pct"], [(c["name"], c["pct"], c["likes_pct"]) for c in m["cats"]])

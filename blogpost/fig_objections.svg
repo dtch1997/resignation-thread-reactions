@@ -2,55 +2,55 @@
 <style>.fig text{font-family:var(--font-ui);font-size:13px;fill:var(--ink-2)} .fig .v{fill:var(--ink);font-variant-numeric:tabular-nums}</style>
 <text x="318" y="25" text-anchor="end">Marketing stunt / IPO pump</text>
 <rect x="330" y="13" width="360.0" height="16" fill="var(--g1)"/>
-<text x="696.0" y="25" class="v">359</text>
+<text x="696.0" y="25" class="v">358</text>
 <text x="318" y="53" text-anchor="end">Doomer cult / fearmongering label</text>
-<rect x="330" y="41" width="343.0" height="16" fill="var(--g2)"/>
-<text x="679.0" y="53" class="v">342</text>
+<rect x="330" y="41" width="342.9" height="16" fill="var(--g2)"/>
+<text x="678.9" y="53" class="v">341</text>
 <text x="318" y="81" text-anchor="end">Fake account, bot, or clout-farming</text>
-<rect x="330" y="69" width="315.9" height="16" fill="var(--g1)"/>
-<text x="651.9" y="81" class="v">315</text>
+<rect x="330" y="69" width="316.8" height="16" fill="var(--g1)"/>
+<text x="652.8" y="81" class="v">315</text>
 <text x="318" y="109" text-anchor="end">Bare insult or personal mockery</text>
-<rect x="330" y="97" width="304.8" height="16" fill="var(--g1)"/>
-<text x="640.8" y="109" class="v">304</text>
+<rect x="330" y="97" width="305.7" height="16" fill="var(--g1)"/>
+<text x="641.7" y="109" class="v">304</text>
 <text x="318" y="137" text-anchor="end">It's just a token predictor / glorified tool</text>
-<rect x="330" y="125" width="282.8" height="16" fill="var(--g2)"/>
-<text x="618.8" y="137" class="v">282</text>
+<rect x="330" y="125" width="281.6" height="16" fill="var(--g2)"/>
+<text x="617.6" y="137" class="v">280</text>
 <text x="318" y="165" text-anchor="end">Capitalism and incentive critique</text>
-<rect x="330" y="153" width="278.8" height="16" fill="var(--g3)"/>
-<text x="614.8" y="165" class="v">278</text>
+<rect x="330" y="153" width="267.5" height="16" fill="var(--g3)"/>
+<text x="603.5" y="165" class="v">266</text>
 <text x="318" y="193" text-anchor="end">If we stop, China wins</text>
-<rect x="330" y="181" width="267.7" height="16" fill="var(--g4)"/>
-<text x="603.7" y="193" class="v">267</text>
+<rect x="330" y="181" width="266.5" height="16" fill="var(--g4)"/>
+<text x="602.5" y="193" class="v">265</text>
 <text x="318" y="221" text-anchor="end">Hypocrisy over pay, equity and complicity</text>
-<rect x="330" y="209" width="244.7" height="16" fill="var(--g1)"/>
-<text x="580.7" y="221" class="v">244</text>
+<rect x="330" y="209" width="244.4" height="16" fill="var(--g1)"/>
+<text x="580.4" y="221" class="v">243</text>
 <text x="318" y="249" text-anchor="end">Can't be stopped anyway</text>
-<rect x="330" y="237" width="235.7" height="16" fill="var(--g4)"/>
-<text x="571.7" y="249" class="v">235</text>
+<rect x="330" y="237" width="231.3" height="16" fill="var(--g4)"/>
+<text x="567.3" y="249" class="v">230</text>
 <text x="318" y="277" text-anchor="end">Conspiracy / engineered-crisis framing</text>
-<rect x="330" y="265" width="190.5" height="16" fill="var(--g3)"/>
-<text x="526.5" y="277" class="v">190</text>
+<rect x="330" y="265" width="191.1" height="16" fill="var(--g3)"/>
+<text x="527.1" y="277" class="v">190</text>
 <text x="318" y="305" text-anchor="end">Accelerate / the upside is worth it</text>
-<rect x="330" y="293" width="167.5" height="16" fill="var(--g4)"/>
-<text x="503.5" y="305" class="v">167</text>
+<rect x="330" y="293" width="165.9" height="16" fill="var(--g4)"/>
+<text x="501.9" y="305" class="v">165</text>
 <text x="318" y="333" text-anchor="end">Just unplug it / turn off the servers</text>
-<rect x="330" y="321" width="160.4" height="16" fill="var(--g2)"/>
-<text x="496.4" y="333" class="v">160</text>
+<rect x="330" y="321" width="158.9" height="16" fill="var(--g2)"/>
+<text x="494.9" y="333" class="v">158</text>
 <text x="318" y="361" text-anchor="end">Demands bolder action than a tweet</text>
-<rect x="330" y="349" width="133.4" height="16" fill="var(--g3)"/>
-<text x="469.4" y="361" class="v">133</text>
+<rect x="330" y="349" width="132.7" height="16" fill="var(--g3)"/>
+<text x="468.7" y="361" class="v">132</text>
 <text x="318" y="389" text-anchor="end">Demands evidence, mechanism or falsifiable prediction</text>
-<rect x="330" y="377" width="120.3" height="16" fill="var(--g2)"/>
-<text x="456.3" y="389" class="v">120</text>
+<rect x="330" y="377" width="117.7" height="16" fill="var(--g2)"/>
+<text x="453.7" y="389" class="v">117</text>
 <text x="318" y="417" text-anchor="end">Analogy to earlier failed panics</text>
-<rect x="330" y="405" width="92.3" height="16" fill="var(--g2)"/>
-<text x="428.3" y="417" class="v">92</text>
+<rect x="330" y="405" width="92.5" height="16" fill="var(--g2)"/>
+<text x="428.5" y="417" class="v">92</text>
 <text x="318" y="445" text-anchor="end">Should have stayed and changed it from inside</text>
-<rect x="330" y="433" width="89.2" height="16" fill="var(--g3)"/>
-<text x="425.2" y="445" class="v">89</text>
+<rect x="330" y="433" width="89.5" height="16" fill="var(--g3)"/>
+<text x="425.5" y="445" class="v">89</text>
 <text x="318" y="473" text-anchor="end">Resignation accomplishes nothing</text>
-<rect x="330" y="461" width="50.1" height="16" fill="var(--g3)"/>
-<text x="386.1" y="473" class="v">50</text>
+<rect x="330" y="461" width="50.3" height="16" fill="var(--g3)"/>
+<text x="386.3" y="473" class="v">50</text>
 <rect x="330" y="512" width="12" height="12" fill="var(--g1)"/><text x="346" y="522">Attacks the messenger</text>
 <rect x="519.2" y="512" width="12" height="12" fill="var(--g2)"/><text x="535.2" y="522">Denies the risk</text>
 <rect x="665.2" y="512" width="12" height="12" fill="var(--g3)"/><text x="681.2" y="522">Other</text>

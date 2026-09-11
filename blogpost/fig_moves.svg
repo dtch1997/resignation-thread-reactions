@@ -4,57 +4,57 @@
 <text x="318" y="48" text-anchor="end" class="mv">Expresses a reaction</text>
 <rect x="330" y="36" width="340.0" height="16" fill="var(--c-move)"/>
 <text x="676.0" y="48" class="v">31%</text>
-<text x="756" y="48" text-anchor="end" class="v">27.5%</text>
+<text x="756" y="48" text-anchor="end" class="v">27.6%</text>
 <text x="318" y="74" text-anchor="end">Affective and existential reactions</text>
-<rect x="330" y="64" width="236.7" height="12" fill="var(--c-cat)"/>
-<text x="572.7" y="74" class="v">21.3%</text>
-<text x="756" y="74" text-anchor="end" class="v">15.9%</text>
+<rect x="330" y="64" width="236.8" height="12" fill="var(--c-cat)"/>
+<text x="572.8" y="74" class="v">21.8%</text>
+<text x="756" y="74" text-anchor="end" class="v">16.0%</text>
 <text x="318" y="100" text-anchor="end">Cultural, historical and conspiratorial framing</text>
-<rect x="330" y="90" width="103.3" height="12" fill="var(--c-cat)"/>
-<text x="439.3" y="100" class="v">9.3%</text>
+<rect x="330" y="90" width="103.2" height="12" fill="var(--c-cat)"/>
+<text x="439.2" y="100" class="v">9.5%</text>
 <text x="756" y="100" text-anchor="end" class="v">11.6%</text>
 <text x="318" y="134" text-anchor="end" class="mv">Comments on the author</text>
-<rect x="330" y="122" width="277.8" height="16" fill="var(--c-move)"/>
-<text x="613.8" y="134" class="v">25%</text>
+<rect x="330" y="122" width="271.6" height="16" fill="var(--c-move)"/>
+<text x="607.6" y="134" class="v">25%</text>
 <text x="756" y="134" text-anchor="end" class="v">24.5%</text>
 <text x="318" y="160" text-anchor="end">Endorsement and amplification</text>
-<rect x="330" y="150" width="200.0" height="12" fill="var(--c-cat)"/>
-<text x="536.0" y="160" class="v">18.0%</text>
-<text x="756" y="160" text-anchor="end" class="v">18.7%</text>
+<rect x="330" y="150" width="193.4" height="12" fill="var(--c-cat)"/>
+<text x="529.4" y="160" class="v">17.8%</text>
+<text x="756" y="160" text-anchor="end" class="v">18.6%</text>
 <text x="318" y="186" text-anchor="end">Attacks on the author's credibility or motives</text>
-<rect x="330" y="176" width="77.8" height="12" fill="var(--c-cat)"/>
-<text x="413.8" y="186" class="v">7.0%</text>
+<rect x="330" y="176" width="77.1" height="12" fill="var(--c-cat)"/>
+<text x="413.1" y="186" class="v">7.1%</text>
 <text x="756" y="186" text-anchor="end" class="v">5.9%</text>
 <text x="318" y="220" text-anchor="end" class="mv">Engages with substance</text>
-<rect x="330" y="208" width="250.0" height="16" fill="var(--c-move)"/>
-<text x="586.0" y="220" class="v">22%</text>
+<rect x="330" y="208" width="246.6" height="16" fill="var(--c-move)"/>
+<text x="582.6" y="220" class="v">23%</text>
 <text x="756" y="220" text-anchor="end" class="v">34.4%</text>
 <text x="318" y="246" text-anchor="end">Substantive debate about how AI would cause harm</text>
-<rect x="330" y="236" width="62.2" height="12" fill="var(--c-cat)"/>
-<text x="398.2" y="246" class="v">5.6%</text>
+<rect x="330" y="236" width="60.8" height="12" fill="var(--c-cat)"/>
+<text x="396.8" y="246" class="v">5.6%</text>
 <text x="756" y="246" text-anchor="end" class="v">9.2%</text>
 <text x="318" y="272" text-anchor="end">Denial or deflation of the extinction risk</text>
-<rect x="330" y="262" width="63.3" height="12" fill="var(--c-cat)"/>
-<text x="399.3" y="272" class="v">5.7%</text>
+<rect x="330" y="262" width="63.0" height="12" fill="var(--c-cat)"/>
+<text x="399.0" y="272" class="v">5.8%</text>
 <text x="756" y="272" text-anchor="end" class="v">5.3%</text>
 <text x="318" y="298" text-anchor="end">Race logic, geopolitics and acceleration</text>
-<rect x="330" y="288" width="53.3" height="12" fill="var(--c-cat)"/>
-<text x="389.3" y="298" class="v">4.8%</text>
+<rect x="330" y="288" width="52.1" height="12" fill="var(--c-cat)"/>
+<text x="388.1" y="298" class="v">4.8%</text>
 <text x="756" y="298" text-anchor="end" class="v">5.7%</text>
 <text x="318" y="324" text-anchor="end">Policy, governance and power</text>
-<rect x="330" y="314" width="54.4" height="12" fill="var(--c-cat)"/>
-<text x="390.4" y="324" class="v">4.9%</text>
+<rect x="330" y="314" width="53.2" height="12" fill="var(--c-cat)"/>
+<text x="389.2" y="324" class="v">4.9%</text>
 <text x="756" y="324" text-anchor="end" class="v">11.9%</text>
 <text x="318" y="350" text-anchor="end">Critique of resigning as a tactic</text>
-<rect x="330" y="340" width="17.8" height="12" fill="var(--c-cat)"/>
-<text x="353.8" y="350" class="v">1.6%</text>
-<text x="756" y="350" text-anchor="end" class="v">2.2%</text>
+<rect x="330" y="340" width="17.4" height="12" fill="var(--c-cat)"/>
+<text x="353.4" y="350" class="v">1.6%</text>
+<text x="756" y="350" text-anchor="end" class="v">2.3%</text>
 <text x="318" y="384" text-anchor="end" class="mv">Noise and meta</text>
-<rect x="330" y="372" width="244.4" height="16" fill="var(--c-move)"/>
-<text x="580.4" y="384" class="v">22%</text>
+<rect x="330" y="372" width="229.2" height="16" fill="var(--c-move)"/>
+<text x="565.2" y="384" class="v">21%</text>
 <text x="756" y="384" text-anchor="end" class="v">13.6%</text>
 <text x="318" y="410" text-anchor="end">Meta-discourse, markets and content-free posts</text>
-<rect x="330" y="400" width="244.4" height="12" fill="var(--c-cat)"/>
-<text x="580.4" y="410" class="v">22.0%</text>
+<rect x="330" y="400" width="229.2" height="12" fill="var(--c-cat)"/>
+<text x="565.2" y="410" class="v">21.1%</text>
 <text x="756" y="410" text-anchor="end" class="v">13.6%</text>
 </svg>

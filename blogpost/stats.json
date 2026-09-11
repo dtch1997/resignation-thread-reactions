@@ -8,27 +8,27 @@
   "retweet_count": 107830
  },
  "fetched_at": "2026-09-09T16:59:25.405013+00:00",
- "n_posts": 17541,
- "n_reply": 4497,
- "n_quote": 13044,
+ "n_posts": 17139,
+ "n_reply": 4248,
+ "n_quote": 12891,
  "followers": {
-  "median": 479,
+  "median": 471,
   "share_under_100": 22.6,
-  "share_under_1k": 63.0,
-  "share_under_10k": 88.7
+  "share_under_1k": 63.7,
+  "share_under_10k": 89.7
  },
  "langs": [
   [
    "en",
-   61.0
+   60.3
   ],
   [
    "es",
-   9.7
+   9.9
   ],
   [
    "pt",
-   4.3
+   4.4
   ],
   [
    "fr",
@@ -36,111 +36,111 @@
   ],
   [
    "ar",
-   3.5
+   3.6
   ],
   [
    "ja",
    2.8
   ],
   [
-   "tr",
-   2.7
+   "art",
+   2.8
   ],
   [
-   "art",
+   "tr",
    2.7
   ]
  ],
  "stance": {
   "All posts": {
-   "n": 17541,
-   "agree": 6355,
-   "mixed": 2964,
-   "disagree": 2152,
-   "not_addressed": 6070,
-   "agree_pct_of_ad": 74.7,
+   "n": 17139,
+   "agree": 6258,
+   "mixed": 2931,
+   "disagree": 2147,
+   "not_addressed": 5803,
+   "agree_pct_of_ad": 74.5,
    "pct": {
-    "agree": 36.2,
-    "mixed": 16.9,
-    "disagree": 12.3,
-    "not_addressed": 34.6
+    "agree": 36.5,
+    "mixed": 17.1,
+    "disagree": 12.5,
+    "not_addressed": 33.9
    }
   },
   "Quote tweets": {
-   "n": 13044,
-   "agree": 5223,
-   "mixed": 2211,
-   "disagree": 1176,
-   "not_addressed": 4434,
-   "agree_pct_of_ad": 81.6,
+   "n": 12891,
+   "agree": 5178,
+   "mixed": 2198,
+   "disagree": 1174,
+   "not_addressed": 4341,
+   "agree_pct_of_ad": 81.5,
    "pct": {
-    "agree": 40.0,
-    "mixed": 17.0,
-    "disagree": 9.0,
-    "not_addressed": 34.0
+    "agree": 40.2,
+    "mixed": 17.1,
+    "disagree": 9.1,
+    "not_addressed": 33.7
    }
   },
   "Replies": {
-   "n": 4497,
-   "agree": 1132,
-   "mixed": 753,
-   "disagree": 976,
-   "not_addressed": 1636,
-   "agree_pct_of_ad": 53.7,
+   "n": 4248,
+   "agree": 1080,
+   "mixed": 733,
+   "disagree": 973,
+   "not_addressed": 1462,
+   "agree_pct_of_ad": 52.6,
    "pct": {
-    "agree": 25.2,
-    "mixed": 16.7,
-    "disagree": 21.7,
-    "not_addressed": 36.4
+    "agree": 25.4,
+    "mixed": 17.3,
+    "disagree": 22.9,
+    "not_addressed": 34.4
    }
   },
   "Quote tweets, accounts under 1,000 followers": {
-   "n": 7910,
-   "agree": 3104,
-   "mixed": 1359,
-   "disagree": 733,
-   "not_addressed": 2714,
-   "agree_pct_of_ad": 80.9,
+   "n": 7808,
+   "agree": 3082,
+   "mixed": 1355,
+   "disagree": 732,
+   "not_addressed": 2639,
+   "agree_pct_of_ad": 80.8,
    "pct": {
-    "agree": 39.2,
-    "mixed": 17.2,
-    "disagree": 9.3,
-    "not_addressed": 34.3
+    "agree": 39.5,
+    "mixed": 17.4,
+    "disagree": 9.4,
+    "not_addressed": 33.8
    }
   },
   "Replies, accounts under 1,000 followers": {
-   "n": 3148,
-   "agree": 775,
-   "mixed": 554,
-   "disagree": 778,
-   "not_addressed": 1041,
-   "agree_pct_of_ad": 49.9,
+   "n": 3101,
+   "agree": 738,
+   "mixed": 547,
+   "disagree": 777,
+   "not_addressed": 1039,
+   "agree_pct_of_ad": 48.7,
    "pct": {
-    "agree": 24.6,
+    "agree": 23.8,
     "mixed": 17.6,
-    "disagree": 24.7,
-    "not_addressed": 33.1
+    "disagree": 25.1,
+    "not_addressed": 33.5
    }
   }
  },
  "moves": [
   {
    "move": "Expresses a reaction",
-   "pct": 30.6,
-   "likes_pct": 27.5,
+   "pct": 31.3,
+   "likes_pct": 27.6,
    "cats": [
     {
      "cat": "existential_reaction",
      "name": "Affective and existential reactions",
-     "n": 3732,
-     "pct": 21.3,
-     "likes_pct": 15.9
+     "n": 3728,
+     "pct": 21.8,
+     "likes_pct": 16.0
     },
     {
      "cat": "cultural_framing",
      "name": "Cultural, historical and conspiratorial framing",
-     "n": 1632,
-     "pct": 9.3,
+     "n": 1631,
+     "pct": 9.5,
      "likes_pct": 11.6
     }
    ]
@@ -153,71 +153,71 @@
     {
      "cat": "endorse_amplify",
      "name": "Endorsement and amplification",
-     "n": 3163,
-     "pct": 18.0,
-     "likes_pct": 18.7
+     "n": 3058,
+     "pct": 17.8,
+     "likes_pct": 18.6
     },
     {
      "cat": "author_attacks",
      "name": "Attacks on the author's credibility or motives",
-     "n": 1222,
-     "pct": 7.0,
+     "n": 1220,
+     "pct": 7.1,
      "likes_pct": 5.9
     }
    ]
   },
   {
    "move": "Engages with substance",
-   "pct": 22.5,
+   "pct": 22.7,
    "likes_pct": 34.4,
    "cats": [
     {
      "cat": "risk_substance",
      "name": "Substantive debate about how AI would cause harm",
-     "n": 977,
+     "n": 960,
      "pct": 5.6,
      "likes_pct": 9.2
     },
     {
      "cat": "risk_denial",
      "name": "Denial or deflation of the extinction risk",
-     "n": 996,
-     "pct": 5.7,
+     "n": 988,
+     "pct": 5.8,
      "likes_pct": 5.3
     },
     {
      "cat": "race_logic",
      "name": "Race logic, geopolitics and acceleration",
-     "n": 834,
+     "n": 822,
      "pct": 4.8,
      "likes_pct": 5.7
     },
     {
      "cat": "policy_power",
      "name": "Policy, governance and power",
-     "n": 860,
+     "n": 841,
      "pct": 4.9,
      "likes_pct": 11.9
     },
     {
      "cat": "exit_critique",
      "name": "Critique of resigning as a tactic",
-     "n": 272,
+     "n": 271,
      "pct": 1.6,
-     "likes_pct": 2.2
+     "likes_pct": 2.3
     }
    ]
   },
   {
    "move": "Noise and meta",
-   "pct": 22.0,
+   "pct": 21.1,
    "likes_pct": 13.6,
    "cats": [
     {
      "cat": "meta_and_noise",
      "name": "Meta-discourse, markets and content-free posts",
-     "n": 3853,
-     "pct": 22.0,
+     "n": 3620,
+     "pct": 21.1,
      "likes_pct": 13.6
     }
    ]
@@ -227,49 +227,49 @@
   {
    "sub": "content_free_offtopic",
    "name": "Emoji-only, cryptic or off-topic",
-   "n": 2878,
-   "pct": 16.4
+   "n": 2870,
+   "pct": 16.7
   },
   {
    "sub": "must_read_relay",
    "name": "Signal-boost / relay / translation",
-   "n": 1774,
+   "n": 1729,
    "pct": 10.1
   },
   {
    "sub": "generic_alarm_exclamation",
    "name": "Brief alarm or 'this is terrifying'",
-   "n": 1531,
-   "pct": 8.7
+   "n": 1528,
+   "pct": 8.9
   },
   {
    "sub": "fatalist_doom_humor",
    "name": "Fatalism and doom humour",
-   "n": 1472,
-   "pct": 8.4
+   "n": 1471,
+   "pct": 8.6
   },
   {
    "sub": "scifi_pop_culture",
    "name": "Sci-fi and pop-culture reference",
    "n": 1002,
-   "pct": 5.7
+   "pct": 5.8
   },
   {
    "sub": "substantive_agreement",
    "name": "Reasoned agreement with the warning",
-   "n": 969,
-   "pct": 5.5
-  },
-  {
-   "sub": "virality_metrics",
-   "name": "Commentary on the post's virality",
-   "n": 384,
-   "pct": 2.2
+   "n": 928,
+   "pct": 5.4
   },
   {
    "sub": "marketing_ipo_stunt",
    "name": "Marketing stunt / IPO pump",
-   "n": 359,
+   "n": 358,
+   "pct": 2.1
+  },
+  {
+   "sub": "doomer_cult_label",
+   "name": "Doomer cult / fearmongering label",
+   "n": 341,
    "pct": 2.0
   }
  ],
@@ -278,15 +278,15 @@
    "sub": "marketing_ipo_stunt",
    "name": "Marketing stunt / IPO pump",
    "group": "Attacks the messenger",
-   "n": 359,
-   "pct": 2.0
+   "n": 358,
+   "pct": 2.1
   },
   {
    "sub": "doomer_cult_label",
    "name": "Doomer cult / fearmongering label",
    "group": "Denies the risk",
-   "n": 342,
-   "pct": 1.9
+   "n": 341,
+   "pct": 2.0
   },
   {
    "sub": "bot_fake_clout",
@@ -300,41 +300,41 @@
    "name": "Bare insult or personal mockery",
    "group": "Attacks the messenger",
    "n": 304,
-   "pct": 1.7
+   "pct": 1.8
   },
   {
    "sub": "not_real_intelligence",
    "name": "It's just a token predictor / glorified tool",
    "group": "Denies the risk",
-   "n": 282,
+   "n": 280,
    "pct": 1.6
   },
   {
    "sub": "capitalism_incentive_critique",
    "name": "Capitalism and incentive critique",
    "group": "Other",
-   "n": 278,
+   "n": 266,
    "pct": 1.6
   },
   {
    "sub": "china_must_win",
    "name": "If we stop, China wins",
    "group": "Race logic",
-   "n": 267,
+   "n": 265,
    "pct": 1.5
   },
   {
    "sub": "hypocrisy_profit",
    "name": "Hypocrisy over pay, equity and complicity",
    "group": "Attacks the messenger",
-   "n": 244,
+   "n": 243,
    "pct": 1.4
   },
   {
    "sub": "inevitability_genie",
    "name": "Can't be stopped anyway",
    "group": "Race logic",
-   "n": 235,
+   "n": 230,
    "pct": 1.3
   },
   {
@@ -348,28 +348,28 @@
    "sub": "accelerationist_upside",
    "name": "Accelerate / the upside is worth it",
    "group": "Race logic",
-   "n": 167,
+   "n": 165,
    "pct": 1.0
   },
   {
    "sub": "just_unplug_it",
    "name": "Just unplug it / turn off the servers",
    "group": "Denies the risk",
-   "n": 160,
+   "n": 158,
    "pct": 0.9
   },
   {
    "sub": "demand_bolder_action",
    "name": "Demands bolder action than a tweet",
    "group": "Other",
-   "n": 133,
+   "n": 132,
    "pct": 0.8
   },
   {
    "sub": "demand_falsifiable_evidence",
    "name": "Demands evidence, mechanism or falsifiable prediction",
    "group": "Denies the risk",
-   "n": 120,
+   "n": 117,
    "pct": 0.7
   },
   {
@@ -394,20 +394,77 @@
    "pct": 0.3
   }
  ],
- "objections_total": 3627,
+ "objections_total": 3595,
  "addressed_to": [
   [
    "general_audience",
-   12958
+   12818
   ],
   [
    "other_commenter",
-   3594
+   3345
   ],
   [
    "author",
-   989
+   976
   ]
  ],
- "substance_share": 22.5
+ "substance_share": 22.7,
+ "bot_screen": {
+  "accounts_screened": 3602,
+  "accounts_flagged": 87,
+  "posts_removed": 402,
+  "posts_before": 17541,
+  "flagged_by_kind": {
+   "reply_bot": 8,
+   "ai_content_account": 78,
+   "brand_or_media": 1
+  },
+  "removed_by_category": {
+   "meta_and_noise": 233,
+   "endorse_amplify": 105,
+   "policy_power": 19,
+   "risk_substance": 17,
+   "race_logic": 12,
+   "risk_denial": 8,
+   "existential_reaction": 4,
+   "author_attacks": 2,
+   "cultural_framing": 1,
+   "exit_critique": 1
+  },
+  "removed_top_subtypes": [
+   [
+    "Thread-unroll bot replies",
+    160
+   ],
+   [
+    "Commentary on the post's virality",
+    60
+   ],
+   [
+    "Signal-boost / relay / translation",
+    45
+   ],
+   [
+    "Reasoned agreement with the warning",
+    41
+   ],
+   [
+    "Insider or expert corroboration",
+    19
+   ],
+   [
+    "Capitalism and incentive critique",
+    12
+   ],
+   [
+    "Emoji-only, cryptic or off-topic",
+    8
+   ],
+   [
+    "Supplies a concrete threat scenario",
+    7
+   ]
+  ]
+ }
 }
